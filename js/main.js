@@ -96,7 +96,9 @@ $(function(){
 
         $('header nav a').removeClass('active');
 
-        if(pathname.includes('index') || urlAry[0].charAt(urlAry[0].length - 1) == '/'){
+        if(urlAry[0].charAt(urlAry[0].length - 1) == '/'){
+            $('header nav a:nth-child(1)').addClass('active');
+        }else if(pathname.includes('index')){
             $('header nav a:nth-child(1)').addClass('active');
         }else if(pathname.includes('about')){
             $('header nav a:nth-child(2)').addClass('active');
