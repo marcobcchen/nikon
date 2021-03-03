@@ -1,0 +1,134 @@
+﻿.page-products{
+
+	.kv{
+		justify-content: center;
+		background-image: url('../images/products/products_1_1/kv_xs.jpg');
+
+		@media (min-width: $media_md) {
+			justify-content: flex-start;
+			background-image: url('../images/products/products_1_1/kv_md.jpg');
+		}
+
+		.icon{
+			width: 100px;
+			margin-left: 0;
+
+			@media (min-width: $media_md) {
+				width: 170px;
+				margin-left: 157px;
+			}
+		}
+	}
+
+	.content-1{
+		.text-side{
+			padding-top: 49px;
+			padding-bottom: 30px;
+
+			@media (min-width: $media_md) {
+				padding-right: 43px;
+			}
+		}
+
+		.right-side{
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-end;
+			align-items: center;
+
+			background: url('../images/products/products_1_1/content_1_1.jpg') no-repeat;
+			background-size: cover;
+			height: 222px;
+
+			@media (min-width: $media_md) {
+				height: 384px;
+			}
+
+			p{
+				color: #fff;
+				font-size: 24px;
+				line-height: 1;
+				margin: 0;
+				margin-bottom: 10px;
+
+				@media (min-width: $media_md) {
+					font-size: 26px;
+					margin-bottom: 24px;
+				}
+
+				&.bold{
+					font-weight: 700;
+				}
+			}
+		}	
+	}
+
+	.content-2{
+		height: 922px;
+		margin-bottom: 49px;
+		background-color: #f4f4f4;
+
+		@media (min-width: $media_md) {
+			height: 503px;
+			margin-bottom: 65px;
+		}
+
+		.col{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 461px;
+
+			@media (min-width: $media_md) {
+				height: auto;
+			}
+		}
+
+		.left-side, .right-side{
+			width: 295px;
+
+			@media (min-width: $media_md) {
+				width: 370px;
+			}
+		}
+	}
+
+	.content-3{
+		.left-side, .right-side{
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-end;
+			align-items: center;
+			height: 224px;
+
+			@media (min-width: $media_md) {
+				height: 384px;
+			}
+
+			p{
+				color: #fff;
+				font-size: 16px;
+				font-weight: 900;
+
+				@media (min-width: $media_md) {
+					font-size: 26px;
+				}
+			}
+		}
+
+		.left-side{
+			background: url('../images/products/products_1_1/content_3_1.jpg') no-repeat;
+			background-size: cover;
+		}
+
+		.right-side{
+			background: url('../images/products/products_1_1/content_3_2.jpg') no-repeat;
+			background-size: cover;
+			margin-top: 8px;
+	
+			@media (min-width: $media_md) {
+				margin-top: 0;
+			}
+		}
+	}
+}

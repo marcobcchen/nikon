@@ -1,0 +1,85 @@
+﻿.page-products{
+
+	.kv{
+		justify-content: center;
+		background-image: url('../images/products/products_1_4/kv_xs.jpg');
+
+		@media (min-width: $media_md) {
+			justify-content: flex-start;
+			background-image: url('../images/products/products_1_4/kv_md.jpg');
+		}
+
+		.icon{
+			width: 100px;
+			margin-left: 0;
+
+			@media (min-width: $media_md) {
+				width: 170px;
+				margin-left: 157px;
+			}
+		}
+	}
+
+	.experience{
+		@media (min-width: $media_md) {
+			flex-direction: column;
+		}
+
+		p{
+			text-align: left;
+
+			@media (min-width: $media_md) {
+				text-align: center;
+			}
+		}
+	}
+
+	.sub-title{
+		background-color: #e9e9e9;
+		padding-top: 50px;
+		padding-bottom: 40px;
+		margin-bottom: 8px;
+
+		@media (min-width: $media_md) {
+			padding: 57px 0;
+			margin-bottom: 20px;
+		}
+	}
+
+	.content-1{
+		.text-side{
+			padding-top: 49px;
+			padding-bottom: 18px;
+
+			@media (min-width: $media_md) {
+				padding-right: 173px;
+			}
+		}
+
+		.right-side{
+			padding: 0 24px 59px 24px;
+
+			@media (min-width: $media_md) {
+				padding: 56px 0 48px 120px;
+			}
+		}	
+	}
+
+	.content-2{
+		justify-content: space-between;
+
+		.col{
+			width: 100%;
+			margin-bottom: 8px;
+
+			&:last-child{
+				margin-bottom: 0;
+			}
+
+			@media (min-width: $media_md) {
+				width: calc((100% - 32px) / 3);
+				margin-bottom: 0;
+			}
+		}
+	}
+}

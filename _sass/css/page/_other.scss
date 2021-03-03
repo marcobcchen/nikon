@@ -1,0 +1,154 @@
+﻿.page-other{
+	padding-top: 68px;
+
+	@media (min-width: $media_md) {
+		padding-top: 72px;
+	}
+
+	.main-title{
+		font-size: 35px;
+  	font-weight: 900;
+		text-align: center;
+
+		margin-top: 69px;
+		margin-bottom: 68px;
+
+		@media (min-width: $media_md) {
+			margin-top: 101px;
+			margin-bottom: 194px;
+		}
+	}
+
+	.terms-container{
+		list-style: none;
+		padding-left: 50px;
+		padding-right: 24px;
+		margin-bottom: 57px;
+
+		@media (min-width: $media_md) {
+			padding: 0 96px;
+			margin-bottom: 170px;
+		}
+
+		li{
+			margin-bottom: 45px;
+
+			h2{
+				font-size: 26px;
+				font-weight: 900;
+				line-height: 1.38;
+				margin-bottom: 30px;
+				
+				span{
+					margin-left: -26px;
+				}
+			}
+
+			p{
+				font-size: 14px;
+				line-height: 2.14;
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	.sitemap-container{
+		width: 100%;
+		padding: 0 32px;
+		margin: 0 auto;
+		margin-bottom: 145px;
+
+		@media (min-width: $media_md) {
+			max-width: 1260px;
+			padding: 0;
+			margin-bottom: 0;
+		}
+
+		ul{
+			padding: 0;
+			
+			li{
+				margin-right: 76px;
+
+				a{
+					color: $color_major;
+					font-size: 19px;
+					font-weight: 700;
+
+					&:hover, &:active, &:focus{
+						text-decoration: none;
+					}
+				}
+			}
+		}
+
+		& > ul{
+			list-style: none;
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+
+			@media (min-width: $media_md) {
+				flex-direction: row;
+			}
+
+			> li{
+				margin-bottom: 56px;
+
+				@media (min-width: $media_md) {
+					margin-bottom: 165px;
+				}
+
+				> a{
+					border-left: 4px solid $color_secondary;
+					padding-left: 6px;
+				}
+			}
+		}
+
+		.sub-list{
+			list-style: disc;
+			padding-left: 19px;
+			margin-top: 20px;
+			
+			white-space: nowrap;
+
+			li{
+				margin-right: 0;
+			}
+		}
+	}
+
+	.contact-container{
+		margin-bottom: 57px;
+
+		@media (min-width: $media_md) {
+			margin-bottom: 200px;
+		}
+
+		h3{
+			font-size: 16px;
+  		font-weight: 900;
+			text-align: center;
+			margin-bottom: 20px;
+			
+			@media (min-width: $media_md) {
+				font-size: 24px;
+			}
+		}
+
+		p{
+			font-size: 14px;
+			text-align: center;
+
+			a{
+				color: $color_major;
+				text-decoration: underline;
+
+				&:hover, &:active, &:focus{
+					color: $color_major;
+				}
+			}
+		}
+	}
+}

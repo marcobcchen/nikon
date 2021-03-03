@@ -1,0 +1,83 @@
+﻿.page-products{
+
+	.kv{
+		justify-content: center;
+		background-image: url('../images/products/products_2_3/kv_xs.jpg');
+
+		@media (min-width: $media_md) {
+			justify-content: flex-start;
+			background-image: url('../images/products/products_2_3/kv_md.jpg');
+		}
+
+		.icon{
+			width: 193px;
+			margin-left: 0;
+
+			@media (min-width: $media_md) {
+				width: 275px;
+				margin-left: 131px;
+			}
+		}
+	}
+
+	.content-1{
+		padding: 0 24px;
+		margin-bottom: 48px;
+
+		@media (min-width: $media_md) {
+			padding: 0;
+			margin-bottom: 78px;
+		}
+	}
+
+	.content-2{
+		margin-bottom: 30px;
+
+		@media (min-width: $media_md) {
+			margin-bottom: 59px;
+		}
+	}
+
+	.content-3{
+		margin-bottom: 49px;
+
+		@media (min-width: $media_md) {
+			margin-bottom: 59px;
+		}
+	}
+
+	.content-4{
+		margin-bottom: 49px;
+
+		@media (min-width: $media_md) {
+			margin-bottom: 59px;
+		}
+
+		.txt{
+			font-size: 14px;
+			padding: 0 24px;
+			padding-top: 34px;
+
+			@media (min-width: $media_md) {
+				// margin-bottom: 59px;
+				margin-top: 50px;
+				padding: 0;
+			}
+		}
+
+		.right-side{
+			padding: 0 24px;
+			padding-top: 34px;
+			
+
+			@media (min-width: $media_md) {
+				padding-right: 87px;
+				padding-top: 60px;
+				padding-bottom: 30px;
+				
+			}
+		}
+	}
+
+	
+}

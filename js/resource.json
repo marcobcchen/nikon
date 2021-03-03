@@ -1,0 +1,364 @@
+{
+  "files": [
+    {
+      "source": "images/coming/ComingSoon.png",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/direction/anti-break.png",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/direction/converter.png",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/direction/manual.png",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/global/coming_logo_xs.svg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/global/footer_logo.png",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/global/footer_logo.svg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/global/header_logo_sm.svg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/global/header_logo_sm.png",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/global/header_logo_xs.svg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/global/header_logo_xs.png",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/global/icon_address.svg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/global/icon_arrow_bottom.svg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/global/icon_arrow_left.svg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/global/icon_arrow_right.svg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/global/icon_arrow_top.svg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/global/icon_cart.svg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/global/icon_close.svg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/global/icon_fb.svg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/global/icon_ig.svg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/global/icon_ink.svg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/global/icon_limited.svg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/global/icon_mail.svg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/global/icon_minus.svg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/global/icon_pen.svg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/global/icon_plus.svg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/global/icon_website.svg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/index/bg_creativity_bottom_md.jpg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/index/bg_creativity_bottom_xs.jpg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/index/bg_creativity_md.jpg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/index/bg_creativity_xs.jpg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/index/creativity_md.png",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/index/creativity_xs.png",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/index/creativity.jpg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/index/innovation.jpg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/index/kv_md_1.jpg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/index/kv_md_2.jpg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/index/kv_md_3.jpg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/index/kv_xs_1.jpg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/index/kv_xs_2.jpg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/index/kv_xs_3.jpg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/index/quality.jpg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/press/press_1.jpg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/press/press_2.jpg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/press/press_3.jpg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/product/ink_1.jpg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/product/ink_2.jpg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/product/ink_3.jpg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/product/ink_4.jpg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/product/ink_5.jpg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/product/ink_6.jpg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/product/ink_7.jpg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/product/ink_8.jpg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/product/ink_press_1.jpg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/product/ink_press_2.jpg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/product/ink_press_3.jpg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/product/ink_press_4.jpg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/product/ink_press_5.jpg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/product/ink_press_6.jpg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/product/ink_press_7.jpg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/product/ink_press_8.jpg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/product/ink_kv.jpg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/product/ink_vision_1.jpg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/product/item_kv.jpg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/product/name_1.png",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/product/name_2.png",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/product/name_3.png",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/product/name_4.png",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/product/pen_1.jpg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/product/pen_2.jpg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/product/pen_3.jpg",
+      "type": "IMAGE",
+      "size": 270.336
+    },
+    {
+      "source": "images/product/pen_4.jpg",
+      "type": "IMAGE",
+      "size": 270.336
+    }
+  ]
+}

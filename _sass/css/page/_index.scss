@@ -1,0 +1,268 @@
+﻿.page-index{
+	.kv{
+		background-image: url('../images/index/kv_xs.jpg');
+
+		@media (min-width: $media_md) {
+			background-image: url('../images/index/kv_md.jpg');
+		}
+
+		h1{
+			font-size: 26px;
+		
+			@media (min-width: $media_md) {
+				font-size: 54px;
+			}
+
+			p{
+				margin-bottom: 10px;
+
+				@media (min-width: $media_md) {
+					margin-bottom: 27px;
+				}
+			}
+			
+			.text-1{
+				font-size: 24px;
+				font-weight: 300;
+
+				@media (min-width: $media_md) {
+					font-size: 33px;
+				}
+			}
+
+			.text-2{
+				font-size: 24px;
+				font-weight: 500;
+
+				@media (min-width: $media_md) {
+					font-size: 33px;
+					font-weight: 700;
+				}
+			}
+
+			hr{
+				height: 2px;
+				margin-bottom: 10px;
+				border: none;
+				background: #FFD800;
+				background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #FFD800 30%, #FFD800 70%, rgba(0, 0, 0, 0) 100%);
+
+				@media (min-width: $media_md) {
+					margin-bottom: 27px;
+				}
+			}
+		}
+	}
+
+	.carousel{
+		.item{
+			margin-bottom: 100px;
+		}
+	}
+
+	.carousel-indicators{
+		bottom: 30px;
+
+		li{
+			width: 14px;
+			height: 14px;
+			background-color: #cccccc;
+			border: 0;
+			margin: 0 7px;
+
+			&.active{
+				background-color: $color_secondary;
+			}
+		}
+	}
+
+	.news-container{
+		.news-title{
+			font-size: 32px;
+			font-weight: 900;
+			margin: 49px 0;
+			
+			@media (min-width: $media_md) {
+				font-size: 35px;
+			}
+		}
+
+		.news-list{
+			margin-bottom: 56px;
+			padding: 0 24px;
+			display: none;
+			flex-direction: column;
+			justify-content: space-between;
+
+			@media (min-width: $media_md) {
+				display: flex;
+				padding: 0;
+				flex-direction: row;
+			}
+		}
+
+		.news-item{
+			margin: 0 24px;
+			width: calc(100% - 48px);
+			box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.15);
+			background-color: #ffffff;
+
+			@media (min-width: $media_md) {
+				margin: 0;
+				width: calc((100% - 72px) / 3);
+			}
+
+			.detail{
+				display: flex;
+				flex-direction: column;
+				justify-content: flex-start;
+				align-items: flex-start;
+				width: 100%;
+				min-height: 390px;
+				padding: 32px 16px;
+
+				@media (min-width: $media_md) {
+					min-height: 430px;
+				}
+			
+				.date{
+					color: $color_secondary;
+					font-size: 16px;
+					font-weight: 700;
+					margin-bottom: 30px;
+				}
+
+				.title{
+					font-size: 16px;
+					font-weight: 700;
+					line-height: 1.58;
+					margin-bottom: 30px;
+				}
+
+				.description{
+					font-size: 14px;
+					line-height: 2.14;
+					margin: 0;
+
+					a{
+						color: $color_major;
+						text-decoration: underline;
+
+						&:hover, &:active, &:focus{
+							color: $color_major;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.content-links{
+		padding-top: 46px;
+		background: url('../images/index/links_bg.jpg') no-repeat center top;
+		background-size: cover;
+
+		@media (min-width: $media_md) {
+			padding: 46px 0;
+		}
+
+		.links-title{
+			font-size: 32px;
+			font-weight: 700;
+			margin-bottom: 50px;
+
+			@media (min-width: $media_md) {
+				font-size: 35px;
+			}
+		}
+
+		.links-des{
+			font-size: 15px;
+			font-weight: 500;
+			margin-bottom: 57px;
+			padding: 0 24px;
+
+			@media (min-width: $media_md) {
+				margin-bottom: 85px;
+				padding: 0 130px;
+			}
+		}
+
+		.cta-thumb-container{
+			display: none;
+			margin-bottom: 0;
+			padding: 0 24px;
+			width: 100%;
+
+			@media (min-width: $media_md) {
+				display: block;
+				padding: 0;
+			}
+		} 
+	}
+
+	.cta-thumb-container-xs{
+		padding: 0 24px;
+	}
+
+	.cta-thumb {
+		&::before{
+			padding-top: 100%;
+		}
+
+		@media (min-width: $media_md) {
+			width: calc((100% - 72px) / 3);
+		}
+	}
+
+	.content-window{
+		margin-bottom: 38px;
+		height: 320px;
+		background: url('../images/about/content_bg_xs.jpg') no-repeat center bottom;
+		background-attachment: scroll;
+
+		@media (min-width: $media_md) {
+			margin-bottom: 76px;
+			background: url('../images/about/content_bg_md.jpg') no-repeat center top;
+			background-attachment: fixed;
+		}
+	}
+
+	.video-container{
+		.video-title{
+			font-size: 32px;
+			font-weight: 900;
+			margin: 49px 0;
+			
+			@media (min-width: $media_md) {
+				font-size: 35px;
+			}
+		}
+
+		.video-list{
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			padding: 0 24px;
+
+			@media (min-width: $media_md) {
+				flex-direction: row;
+				padding: 0;
+			}
+
+			.video-item{
+				width: 100%;
+				margin-bottom: 16px; 
+
+				&:last-child{
+					margin-bottom: 0;
+				}
+				
+				@media (min-width: $media_md) {
+					width: calc((100% - 72px) / 3);
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,131 @@
+﻿.page-news{
+	padding-top: 68px;
+
+	@media (min-width: $media_md) {
+		padding-top: 72px;
+	}
+
+	.main-title{
+		font-size: 35px;
+  	font-weight: 900;
+		text-align: center;
+
+		margin-top: 69px;
+		margin-bottom: 55px;
+
+		@media (min-width: $media_md) {
+			margin-top: 68px;
+			margin-bottom: 65px;
+		}
+	}
+
+	.news-list{
+		display: flex;
+		flex-direction: column;
+		padding:  0 24px;
+
+		@media (min-width: $media_md) {
+			padding: 0;
+		}
+
+		.news-item{
+			display: flex;
+			flex-direction: column;
+
+			margin-bottom: 30px;
+			box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.15);
+			background-color: #ffffff;
+
+			@media (min-width: $media_md) {
+				flex-direction: row;
+				flex-wrap: nowrap;
+			}
+			
+			&:last-child{
+				margin-bottom: 0;
+			}
+
+			.picture{
+				width: 100%;
+
+				@media (min-width: $media_md) {
+					width: 450px;
+				}
+			}
+
+			.detail{
+				display: flex;
+				flex-direction: column;
+				justify-content: flex-start;
+				align-items: flex-start;
+				width: 100%;
+				padding: 59px 24px;
+
+
+				@media (min-width: $media_md) {
+					width: calc(100% - 450px);
+					padding: 36px 38px;
+				}
+			
+				.date{
+					color: $color_secondary;
+					font-size: 16px;
+					font-weight: 700;
+					margin-bottom: 36px;
+				}
+
+				.title{
+					font-size: 19px;
+					font-weight: 700;
+					line-height: 1.58;
+					margin-bottom: 33px;
+
+					@media (min-width: $media_md) {
+						margin-bottom: 40px;
+					}
+				}
+
+				.description{
+					font-size: 14px;
+					line-height: 2.14;
+					margin: 0;
+
+					a{
+						color: $color_major;
+						text-decoration: underline;
+
+						&:hover, &:active, &:focus{
+							color: $color_major;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.page-links{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 58px 0;
+
+		a{
+			color: #d1d1d1;
+			font-size: 16px;
+			line-height: 1;
+			padding: 0 9px;
+
+			&.active{
+				color: #3b404b;
+			}
+
+			&:first-child{
+				border-right: 1px solid #d1d1d1;
+			}
+
+			&:hover, &:active, &:focus{
+				text-decoration: none;
+			}
+		}
+	}
+}
