@@ -90,11 +90,13 @@ $(function(){
     
     function setting(){
         pathname = window.location.pathname;
+        var url = window.location.href;
+        var urlAry = url.split('?');
         // console.log(pathname.substr(1));
 
         $('header nav a').removeClass('active');
 
-        if(pathname.includes('index') || pathname.substr(1) == ''){
+        if(pathname.includes('index') || urlAry[0].charAt(urlAry[0].length - 1) == '/'){
             $('header nav a:nth-child(1)').addClass('active');
         }else if(pathname.includes('about')){
             $('header nav a:nth-child(2)').addClass('active');
