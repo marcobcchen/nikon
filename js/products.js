@@ -1,5 +1,6 @@
 ﻿$(function(){
   var series = 1;
+  var $body = (window.opera) ? (document.compatMode == "CSS1Compat" ? $('html') : $('body')) : $('html,body');
 
   $('.products-nav a').on('click', function(){
     var _index = $(this).index();
@@ -26,6 +27,13 @@
     $('.products-nav a:nth-child(' + _num + ')').addClass('opened');
     $('.products').fadeOut();
     $('.products-' + _num).fadeIn();
+
+    var _top = $('.products-1').offset().top - 90;
+    console.log(_top, _num);
+
+    $body.animate({
+      scrollTop: _top
+    }, 1000);
   }
 });
 

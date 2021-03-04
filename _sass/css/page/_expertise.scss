@@ -248,21 +248,17 @@
 		}
 
 		.right-side{
-			display: flex;
-			justify-content: center;
-
-			padding-top: 24px;
-			padding-bottom: 29px;
-			padding-right: 0px;
+			padding: 0 85px;
 
 			@media (min-width: $media_md) {
-				justify-content: flex-end;
+				padding-top: 24px;
+				padding-bottom: 29px;
 				padding-right: 90px;
+				text-align: right;
 			}
 
 			img{
-				width: 200px;
-
+				display: inline-block;
 				@media (min-width: $media_md) {
 					width: 347px;
 				}

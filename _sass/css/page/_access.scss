@@ -81,7 +81,7 @@
 	}
 
 	.shop-container{
-		// display: none;
+		display: none;
 		position: fixed;
 		left: 0%;
 		top: 0%;
@@ -141,16 +141,20 @@
 			}
 
 			.phone{
-				margin-bottom: 20px;
+				margin-bottom: 10px;
 			}
 
 			.link{
+				font-weight: 700;
+				margin-top: 10px;
+				margin-bottom: 10px;
+
 				a{
 					color: $color_major;
-					text-decoration: underline;
 
 					&:hover, &:active, &:focus{
 						color: $color_major;
+						text-decoration: none;
 					}
 				}
 			}

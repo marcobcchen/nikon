@@ -50,6 +50,114 @@
 		}
 	}
 
+	.content-text-img{
+		display: none;
+
+		@media (min-width: $media_md) {
+			display: flex;
+		}
+	}
+
+	.xs-carousel{
+		margin-bottom: 50px;
+		
+		.text-con{
+			text-align: center;
+			width: 100%;
+			margin-bottom: 30px;
+			padding: 0 24px;
+
+			@media (min-width: $media_md) {
+				margin-bottom: 50px;
+			}
+
+			h4{
+				font-size: 26px;
+				font-weight: 700;
+			}
+
+			p{
+				font-size: 19px;
+				font-weight: 300;
+				margin: 0;
+			}
+		}
+
+		.img-con{
+			// box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.15);
+			background-color: #ffffff;
+			width: 100%;
+			margin-bottom: 8px;
+
+			&:last-child{
+				margin-bottom: 0;
+			}
+
+			@media (min-width: $media_md) {
+				width: calc(50% - 6px);
+				margin-bottom: 0;
+			}
+
+			p{
+				font-size: 16px;
+				text-align: center;
+				margin: 10px 0;
+
+				@media (min-width: $media_md) {
+					margin: 30px 0;
+				}
+			}
+		}
+
+		.carousel{
+			box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.15);
+		}
+
+		.carousel-indicators{
+			bottom: -40px;
+	
+			li{
+				width: 8px;
+				height: 8px;
+				background-color: #cccccc;
+				border: 0;
+				margin: 0 3px;
+	
+				&.active{
+					background-color: $color_secondary;
+				}
+			}
+		}
+
+		.carousel-control.right, .carousel-control.left{
+			background: none
+		}
+
+		.icon-left{
+			display: block;
+			background: url('../images/access/icon_left.png') no-repeat center top;
+			background-size: contain;
+			width: 30px;
+			height: 30px;
+			position: absolute;
+			left: 10px;
+			top: 40%;
+			margin-top: -15px;
+		}
+	
+		.icon-right{
+			display: block;
+			background: url('../images/access/icon_right.png') no-repeat center top;
+			background-size: contain;
+			width: 30px;
+			height: 30px;
+			position: absolute;
+			right: 10px;
+			top: 40%;
+			margin-top: -15px;
+		}
+	}
+
 	.cta-thumb-container{
 		.cta-thumb-list{
 			justify-content: center;

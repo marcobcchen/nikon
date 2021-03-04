@@ -5,6 +5,8 @@ var hamburgerC;
 var navW;
 var pathname;
 
+var $body = (window.opera) ? (document.compatMode == "CSS1Compat" ? $('html') : $('body')) : $('html,body');
+
 $(function(){
 
 	// $.html5Loader({
@@ -120,19 +122,19 @@ $(function(){
 
         // back to top
         $('.back-to-top').on('click', function(){
-            var $body = (window.opera) ? (document.compatMode == "CSS1Compat" ? $('html') : $('body')) : $('html,body');
-
             $body.animate({
                 scrollTop: 0
             }, 1000);
+
+            return false;
         });
 
+         // anchor
         $('.anchor').on('click', function(){
             var anchorTop = $('#anchor').offset().top;
-            var $body = (window.opera) ? (document.compatMode == "CSS1Compat" ? $('html') : $('body')) : $('html,body');
 
             $body.animate({
-                scrollTop: anchorTop
+                scrollTop: anchorTop - 90
             }, 1000);
 
             return false;

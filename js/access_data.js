@@ -1,3 +1,6 @@
+// 搜尋店舖與預約資料
+
+// 縣市資料
 var cityList = [
   {
     city: '台北市',
@@ -49,6 +52,7 @@ var cityList = [
   },
 ];
 
+// 店鋪資料
 var shopList = [
   {
     id: 0,
@@ -61,11 +65,11 @@ var shopList = [
         time: '<br>週一~週六10：00 ~ 22：00<br>週日: 13:00~21:00',
         link: 'https://eyebooknow.tw/TW00000141',
         intro: '一進到國輝眼鏡，千萬不要被像精品店的裝潢給震懾到了！因為接下來會發現他們的服務讓你像在「家」一樣舒適自在。一直以來秉持著以「人」為本的服務精神，這裡沒有任何強迫推銷，而是真正能感受到自己的視力需求有人比你更在意。<br><br>負責人蔡東益表示：「除了我們一直引以為傲的服務外，過去，我們也希望專業能夠被顧客看見，讓雙方之間溝通的落差降到最少。而現在，透過可視化的數據來佐證專業知識講解，確實有效幫助我們縮短在提供顧客鏡片選擇時，雙方的認知落差，進而能提供顧客最適合的鏡片解決方案。」',
-        position: {
-          lat: 25.063334256306522,
-          lng: 121.51713745571459,
+        position: { 
+          lat: 25.063168587133273,
+          lng: 121.51712684732703,
         },
-        photos: ['1_1.jpg', '1_2.jpg', '1_3.jpg'],
+        photos: ['images/access/shop/1_1.jpg', 'images/access/shop/1_2.jpg', 'images/access/shop/1_3.jpg'],
       },
       {
         id: 1,
@@ -79,7 +83,7 @@ var shopList = [
           lat: 25.03395736099432, 
           lng: 121.52800154222157,
         },
-        photos: ['2_1.jpg', '2_2.jpg', '2_3.jpg'],
+        photos: ['images/access/shop/2_1.jpg', 'images/access/shop/2_2.jpg', 'images/access/shop/2_3.jpg'],
       },
       {
         id: 2,
@@ -93,7 +97,7 @@ var shopList = [
           lat: 25.11778082702746, 
           lng: 121.51704427105838,
         },
-        photos: ['3_1.jpg', '3_2.jpg', '3_3.jpg'],
+        photos: ['images/access/shop/3_1.jpg', 'images/access/shop/3_2.jpg', 'images/access/shop/3_3.jpg'],
       },
     ]
   },
@@ -112,7 +116,7 @@ var shopList = [
           lat: 25.02010842484841, 
           lng: 121.47148334037117,
         },
-        photos: ['4_1.jpg', '4_2.jpg'],
+        photos: ['images/access/shop/4_1.jpg', 'images/access/shop/4_2.jpg'],
       },
       {
         id: 1,
@@ -126,7 +130,7 @@ var shopList = [
           lat: 25.005602271025456, 
           lng: 121.517436155714,
         },
-        photos: ['5_1.jpg', '5_2.jpg', '5_3.jpg'],
+        photos: ['images/access/shop/5_1.jpg', 'images/access/shop/5_2.jpg', 'images/access/shop/5_3.jpg'],
       },
     ]
   },
@@ -145,7 +149,7 @@ var shopList = [
           lat: 24.992286641669125, 
           lng: 121.2994552692066,
         },
-        photos: ['6_1.jpg', '6_2.jpg', '6_3.jpg'],
+        photos: ['images/access/shop/6_1.jpg', 'images/access/shop/6_2.jpg', 'images/access/shop/6_3.jpg'],
       },
     ]
   },
@@ -164,7 +168,7 @@ var shopList = [
           lat: 24.830403098394374, 
           lng: 121.0166545268762,
         },
-        photos: ['7_1.jpg', '7_2.jpg', '7_3.jpg'],
+        photos: ['images/access/shop/7_1.jpg', 'images/access/shop/7_2.jpg', 'images/access/shop/7_3.jpg'],
       },
     ]
   },
@@ -183,7 +187,7 @@ var shopList = [
           lat: 24.25064966218739, 
           lng: 120.71450271337707,
         },
-        photos: ['8_1.jpg', '8_2.jpg', '8_3.jpg'],
+        photos: ['images/access/shop/8_1.jpg', 'images/access/shop/8_2.jpg', 'images/access/shop/8_3.jpg'],
       },
       {
         id: 1,
@@ -197,7 +201,7 @@ var shopList = [
           lat: 24.25185611666939, 
           lng: 120.7210082691983,
         },
-        photos: ['9_1.jpg', '9_2.jpg', '9_3.jpg'],
+        photos: ['images/access/shop/9_1.jpg', 'images/access/shop/9_2.jpg', 'images/access/shop/9_3.jpg'],
       },
     ]
   },
@@ -213,10 +217,10 @@ var shopList = [
         link: 'https://eyebooknow.tw/TW00000215',
         intro: '「守護顧客視力健康，幫助顧客改善視覺品質」是彰化員林睛展視眼鏡的創店理念。<br>陳老闆在業界有15年以上的資歷，這些年工作的過程中，發現自己對於解決顧客的視力問題，有著極大的責任感，並且將之視為一生的使命，所以創立了睛展視眼鏡行。陳老闆希望睛展視眼鏡能為消費者優先把關視力問題，預先防範與及早發現潛在危機，讓顧客的視覺需求能夠更快速、準確的解決！',
         position: {
-          lat: 23.969122260871778, 
-          lng: 120.57553392686668,
+          lat: 23.96883918075532, 
+          lng: 120.57557911858265,
         },
-        photos: ['10_1.jpg', '10_2.jpg', '10_3.jpg'],
+        photos: ['images/access/shop/10_1.jpg', 'images/access/shop/10_2.jpg', 'images/access/shop/10_3.jpg'],
       },
     ]
   },
@@ -235,7 +239,7 @@ var shopList = [
           lat: 23.978118910193555, 
           lng: 120.6838195077619,
         },
-        photos: ['11_1.jpg', '11_2.jpg', '11_3.jpg'],
+        photos: ['images/access/shop/11_1.jpg', 'images/access/shop/11_2.jpg', 'images/access/shop/11_3.jpg'],
       },
     ]
   },
@@ -251,10 +255,10 @@ var shopList = [
         link: 'https://eyebooknow.tw/TW00000281',
         intro: '伯樂眼鏡，在台南深耕22年，老闆陳永能還是台灣少數擁有設計和視光雙證照的驗光師，來這裡除了配眼鏡還給顧客美學搭配的建議。陳老闆說：「過去因為消費者對眼鏡和鏡片不了解，常常產生很多疑問，而我們現在提供更完整的圖像視覺評估，讓他們不只是來配付眼鏡就走，顧客會從我們的眼健康檢查得到詳細的解說分析，並得到量身訂作的視力解決方案。」',
         position: {
-          lat: 22.97625241646501, 
-          lng: 120.22181481151318,
+          lat: 22.975984038057344, 
+          lng: 120.22169081898772,
         },
-        photos: ['12_1.jpg', '12_2.jpg', '12_3.jpg'],
+        photos: ['images/access/shop/12_1.jpg', 'images/access/shop/12_2.jpg', 'images/access/shop/12_3.jpg'],
       },
       {
         id: 1,
@@ -268,7 +272,7 @@ var shopList = [
           lat: 23.00647674746988, 
           lng: 120.2166420691849, 
         },
-        photos: ['13_1.jpg', '13_2.jpg', '13_3.jpg'],
+        photos: ['images/access/shop/13_1.jpg', 'images/access/shop/13_2.jpg', 'images/access/shop/13_3.jpg'],
       },
     ]
   },
@@ -284,10 +288,10 @@ var shopList = [
         link: 'https://eyebooknow.tw/TW00000185',
         intro: '「在這裡，有10年以上經驗的視光學專業背景驗光師駐店服務，為各種不同視力問題的顧客提供精緻服務，其中當然也包含弱勢族群，因為受到過許多人的幫助，麗睛眼鏡才能走到今天，因此，我們更要將專業價值回饋給這個社會上需要幫助的人。」<br><br>曾店長是高雄第一位考過視障輔具評估執照的專業人員，她貢獻所長透過義診的方式回饋給社會，除了成立偏鄉義診團隊，也會將店內的鏡框捐給有需要的弱勢族群，完整展現曾店長樂於助人的那一面。「既保有人情味，又能具體展現專業」體現了麗睛眼鏡給人的深刻印象。',
         position: {
-          lat: 22.61097068572249, 
-          lng: 120.31227445568807,
+          lat: 22.610694496999823, 
+          lng: 120.31225274956809,
         },
-        photos: ['14_1.jpg', '14_2.jpg', '14_3.jpg'],
+        photos: ['images/access/shop/14_1.jpg', 'images/access/shop/14_2.jpg', 'images/access/shop/14_3.jpg'],
       },
     ]
   },
@@ -303,10 +307,10 @@ var shopList = [
         link: 'https://eyebooknow.tw/TW00000859',
         intro: '「想永續經營，就必須讓我們店更精進、更優質。投資高端設備，才有辦法讓顧客理解選配高階鏡片的原因。另外還有一點，我們希望能讓眼鏡行與眼科間的連動更順暢，即使顧客最後未驗配任何鏡片，只要能確實幫助顧客解決視力問題，就是我想傳承下去的經營理念。」黃老闆在乎的不是生意經營的大道理，而是總在思考面對顧客時，要做哪些事才能帶給他們更好的體驗。',
         position: {
-          lat: 22.67434757790026, 
-          lng: 120.49979608267405,
+          lat: 22.674047455985413, 
+          lng: 120.49979459587465,
         },
-        photos: ['15_1.jpg'],
+        photos: ['images/access/shop/15_1.jpg'],
       },
     ]
   },
@@ -325,7 +329,7 @@ var shopList = [
           lat: 24.683608700240978, 
           lng: 121.77027696920288,
         },
-        photos: ['16_1.jpg', '16_2.jpg', '16_3.jpg'],
+        photos: ['images/access/shop/16_1.jpg', 'images/access/shop/16_2.jpg', 'images/access/shop/16_3.jpg'],
       },
     ]
   },
@@ -344,7 +348,7 @@ var shopList = [
           lat: 23.980314229024394, 
           lng: 121.6038040980308,
         },
-        photos: ['17_1.jpg', '17_2.jpg', '17_3.jpg'],
+        photos: ['images/access/shop/17_1.jpg', 'images/access/shop/17_2.jpg', 'images/access/shop/17_3.jpg'],
       },
     ]
   },
