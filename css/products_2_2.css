@@ -4372,7 +4372,7 @@ footer .footer-con .copyright { color: #989aa0; font-size: 13px; margin: 0; }
 @media (min-width: 992px) { /* line 56, ../_sass/css/page/_products_2_2.scss */
   .page-products .content-2 { margin-bottom: 58px; height: 636px; background: url("../images/products/products_2_2/content_2_md.jpg") no-repeat; } }
 /* line 68, ../_sass/css/page/_products_2_2.scss */
-.page-products .content-2 p { color: #fff; font-size: 24px; font-weight: 900; line-height: 1.54; text-align: left; width: 100%; padding: 0 24px; padding-top: 60px; }
+.page-products .content-2 p { color: #fff; font-size: 24px; font-weight: 700; line-height: 1.54; text-align: left; width: 100%; padding: 0 24px; padding-top: 60px; }
 @media (min-width: 992px) { /* line 68, ../_sass/css/page/_products_2_2.scss */
   .page-products .content-2 p { font-size: 26px; text-align: center; } }
 /* line 85, ../_sass/css/page/_products_2_2.scss */

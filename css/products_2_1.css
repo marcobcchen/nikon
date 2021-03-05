@@ -4364,7 +4364,7 @@ footer .footer-con .copyright { color: #989aa0; font-size: 13px; margin: 0; }
 @media (min-width: 992px) { /* line 31, ../_sass/css/page/_products_2_1.scss */
   .page-products .content-1 { margin-bottom: 56px; padding: 48px 210px; } }
 /* line 44, ../_sass/css/page/_products_2_1.scss */
-.page-products .content-1 h4 { font-size: 26px; font-weight: 900; text-align: center; margin-bottom: 37px; }
+.page-products .content-1 h4 { font-size: 26px; font-weight: 700; text-align: center; margin-bottom: 37px; }
 @media (min-width: 992px) { /* line 44, ../_sass/css/page/_products_2_1.scss */
   .page-products .content-1 h4 { margin-bottom: 49px; } }
 /* line 55, ../_sass/css/page/_products_2_1.scss */
