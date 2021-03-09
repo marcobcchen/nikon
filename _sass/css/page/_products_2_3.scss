@@ -5,18 +5,33 @@
 		background-image: url('../images/products/products_2_3/kv_xs.jpg');
 
 		@media (min-width: $media_sm) {
-			background-image: url('../images/products/products_2_3/kv_md.jpg');
+			background-image: url('../images/products/products_2_3/kv_sm.jpg');
 		}
 
 		@media (min-width: $media_md) {
 			justify-content: flex-start;
+			background-image: url('../images/products/products_2_3/kv_md.jpg');
+		}
+		
+		@media (min-width: $media_lg) {
+			justify-content: flex-start;
+			background-image: url('../images/products/products_2_3/kv_lg.jpg');
 		}
 
 		.icon{
 			width: 193px;
 			margin-left: 0;
 
+			@media (min-width: $media_sm) {
+				width: 275px;
+			}
+
 			@media (min-width: $media_md) {
+				width: 214px;
+				margin-left: 100px;
+			}
+
+			@media (min-width: $media_lg) {
 				width: 275px;
 				margin-left: 131px;
 			}
@@ -38,6 +53,15 @@
 
 		@media (min-width: $media_md) {
 			margin-bottom: 59px;
+		}
+
+		.text-side{
+			padding-top: 49px;
+			padding-bottom: 30px;
+
+			@media (min-width: $media_md) {
+				padding: 0;
+			}
 		}
 	}
 
@@ -92,7 +116,7 @@
 
 	.xs-carousel{
 		.text-con{
-			text-align: center;
+			text-align: justify;
 			width: 100%;
 			margin-bottom: 30px;
 			padding: 0 24px;
@@ -104,6 +128,7 @@
 			h4{
 				font-size: 26px;
 				font-weight: 700;
+				text-align: center;
 			}
 
 			p{

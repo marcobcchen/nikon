@@ -5,34 +5,30 @@
 		background-image: url('../images/products/products_2_4/kv_xs.jpg');
 
 		@media (min-width: $media_sm) {
-			background-image: url('../images/products/products_2_4/kv_md.jpg');
+			background-image: url('../images/products/products_2_4/kv_sm.jpg');
 		}
 
 		@media (min-width: $media_md) {
 			justify-content: flex-start;
+			background-image: url('../images/products/products_2_4/kv_md.jpg');
 		}
 
 		.icon{
 			width: 100px;
 			margin-left: 0;
 
+			@media (min-width: $media_sm) {
+				width: 178px;
+			}
+
 			@media (min-width: $media_md) {
+				width: 138px;
+				margin-left: 100px;
+			}
+
+			@media (min-width: $media_lg) {
 				width: 170px;
 				margin-left: 157px;
-			}
-		}
-	}
-
-	.experience{
-		@media (min-width: $media_md) {
-			flex-direction: column;
-		}
-
-		p{
-			text-align: left;
-
-			@media (min-width: $media_md) {
-				text-align: center;
 			}
 		}
 	}

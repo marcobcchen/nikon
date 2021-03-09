@@ -248,5 +248,23 @@
 		@media (min-width: $media_md) {
 			margin-top: 59px;
 		}
+
+		.products-list{
+			.products-item{
+				.icon{
+					@media (min-width: $media_md) {
+						margin: 0;
+						margin-left: 52px;
+    				margin-right: 31px;
+					}
+
+					@media (min-width: $media_lg) {
+						margin: 0;
+						margin-left: 112px;
+						margin-right: 41px;
+					}
+				}
+			}
+		}
 	}
 }

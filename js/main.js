@@ -66,28 +66,26 @@ $(function(){
         }
 
         //選單背景需要直接出現的頁面
-        if(
-            pathname.includes('news') || 
-            pathname.includes('access') || 
-            pathname.includes('terms') || 
-            pathname.includes('privacy') ||
-            pathname.includes('sitemap') ||
-            pathname.includes('contact') 
-        ){
-            $('header').addClass('active');
-            $('header .logo').addClass('active');
-            return;
-        }
+        // if(
+        //     pathname.includes('news') || 
+        //     pathname.includes('access') || 
+        //     pathname.includes('terms') || 
+        //     pathname.includes('privacy') ||
+        //     pathname.includes('sitemap') ||
+        //     pathname.includes('contact') 
+        // ){
+        //     $('header').addClass('active');
+        //     $('header .logo').addClass('active');
+        //     return;
+        // }
         
-        if(st > winH - 80){
-            $('header').addClass('active');
-            $('header .logo').addClass('active');
-        }else{
-            $('header').removeClass('active');
-            $('header .logo').removeClass('active');
-        }
-
-        
+        // if(st > winH - 80){
+        //     $('header').addClass('active');
+        //     $('header .logo').addClass('active');
+        // }else{
+        //     $('header').removeClass('active');
+        //     $('header .logo').removeClass('active');
+        // }
     }
     
     function setting(){

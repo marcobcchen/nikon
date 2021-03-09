@@ -28,6 +28,11 @@
 		margin-bottom: 30px;
 		padding: 0 24px;
 
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
 		@media (min-width: $media_md) {
 			margin-bottom: 49px;
 			padding: 0 74px;
@@ -48,11 +53,7 @@
 			font-size: 16px;
 			line-height: 1.88;
 			letter-spacing: 0.8px;
-			text-align: left;
-
-			@media (min-width: $media_md) {
-				text-align: center;
-			}
+			text-align: justify;
 		}
 	}
 
@@ -119,19 +120,21 @@
 			align-items: flex-start;
 
 			margin: 32px 0;
-			margin-left: -10px;
+			padding-left: 42px;
+			padding-right: 24px;
 
 			@media (min-width: $media_md) {
-				margin: 46px 0;
-				margin-left: 57px;
+				margin: 46px 24px;
+				padding-left: 48px;
 			}
 
 			li{
-				font-size: 19px;
+				font-size: 18px;
+				text-align: justify;
 				letter-spacing: 0px;
 
 				@media (min-width: $media_md) {
-					font-size: 26px;
+					font-size: 24px;
 				}
 			}
 		}
@@ -154,6 +157,7 @@
 		p{
 			color: #fff;
 			font-size: 18px;
+			text-align: justify;
 			line-height: 1.5;
 			margin: 0;
 
@@ -164,6 +168,7 @@
 			&.text-hightlight{
 				color: $color_secondary;
 				font-size: 24px;
+				white-space: nowrap;
 				margin-right: 0;
 
 				@media (min-width: $media_md) {
@@ -276,7 +281,6 @@
 		}
 
 		.text-con{
-			text-align: center;
 			width: 100%;
 			margin-bottom: 30px;
 
@@ -287,12 +291,18 @@
 			h4{
 				font-size: 26px;
 				font-weight: 700;
+				text-align: center;
 			}
 
 			p{
 				font-size: 19px;
 				font-weight: 300;
+				text-align: justify;
 				margin: 0;
+
+				@media (min-width: $media_md) {
+					text-align: center;
+				}
 			}
 		}
 
