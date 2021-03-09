@@ -4349,51 +4349,53 @@ footer .footer-con .copyright { color: #989aa0; font-size: 13px; margin: 0; }
 
 /* line 3, ../_sass/css/page/_products_1_3.scss */
 .page-products .kv { justify-content: center; background-image: url("../images/products/products_1_3/kv_xs.jpg"); }
+@media (min-width: 768px) { /* line 3, ../_sass/css/page/_products_1_3.scss */
+  .page-products .kv { background-image: url("../images/products/products_1_3/kv_md.jpg"); } }
 @media (min-width: 992px) { /* line 3, ../_sass/css/page/_products_1_3.scss */
-  .page-products .kv { justify-content: flex-start; background-image: url("../images/products/products_1_3/kv_md.jpg"); } }
-/* line 12, ../_sass/css/page/_products_1_3.scss */
+  .page-products .kv { justify-content: flex-start; } }
+/* line 15, ../_sass/css/page/_products_1_3.scss */
 .page-products .kv .icon { width: 100px; margin-left: 0; }
-@media (min-width: 992px) { /* line 12, ../_sass/css/page/_products_1_3.scss */
+@media (min-width: 992px) { /* line 15, ../_sass/css/page/_products_1_3.scss */
   .page-products .kv .icon { width: 170px; margin-left: 157px; } }
-/* line 23, ../_sass/css/page/_products_1_3.scss */
+/* line 26, ../_sass/css/page/_products_1_3.scss */
 .page-products .sub-title { background-color: #e9e9e9; padding-top: 49px; padding-bottom: 31px; margin-bottom: 0; }
-@media (min-width: 992px) { /* line 23, ../_sass/css/page/_products_1_3.scss */
+@media (min-width: 992px) { /* line 26, ../_sass/css/page/_products_1_3.scss */
   .page-products .sub-title { padding-top: 57px; padding-bottom: 65px; } }
-/* line 36, ../_sass/css/page/_products_1_3.scss */
+/* line 39, ../_sass/css/page/_products_1_3.scss */
 .page-products .content-1 .text-side { padding-top: 49px; padding-bottom: 18px; }
-@media (min-width: 992px) { /* line 36, ../_sass/css/page/_products_1_3.scss */
+@media (min-width: 992px) { /* line 39, ../_sass/css/page/_products_1_3.scss */
   .page-products .content-1 .text-side { padding-right: 173px; } }
-/* line 45, ../_sass/css/page/_products_1_3.scss */
+/* line 48, ../_sass/css/page/_products_1_3.scss */
 .page-products .content-1 .right-side { padding: 0 24px 47px 24px; }
-@media (min-width: 992px) { /* line 45, ../_sass/css/page/_products_1_3.scss */
+@media (min-width: 992px) { /* line 48, ../_sass/css/page/_products_1_3.scss */
   .page-products .content-1 .right-side { padding: 72px 24px; padding-left: 0; } }
-/* line 56, ../_sass/css/page/_products_1_3.scss */
+/* line 59, ../_sass/css/page/_products_1_3.scss */
 .page-products .content-2 .text-side { padding-top: 49px; padding-bottom: 30px; }
-@media (min-width: 992px) { /* line 56, ../_sass/css/page/_products_1_3.scss */
+@media (min-width: 992px) { /* line 59, ../_sass/css/page/_products_1_3.scss */
   .page-products .content-2 .text-side { padding: 0; padding-right: 43px; } }
-/* line 66, ../_sass/css/page/_products_1_3.scss */
+/* line 69, ../_sass/css/page/_products_1_3.scss */
 .page-products .content-2 .right-side { padding-left: 0; }
-@media (min-width: 992px) { /* line 66, ../_sass/css/page/_products_1_3.scss */
+@media (min-width: 992px) { /* line 69, ../_sass/css/page/_products_1_3.scss */
   .page-products .content-2 .right-side { padding-left: 108px; } }
-/* line 75, ../_sass/css/page/_products_1_3.scss */
+/* line 78, ../_sass/css/page/_products_1_3.scss */
 .page-products .content-3 { margin-bottom: 30px; }
-@media (min-width: 992px) { /* line 75, ../_sass/css/page/_products_1_3.scss */
+@media (min-width: 992px) { /* line 78, ../_sass/css/page/_products_1_3.scss */
   .page-products .content-3 { margin-bottom: 56px; } }
-/* line 82, ../_sass/css/page/_products_1_3.scss */
+/* line 85, ../_sass/css/page/_products_1_3.scss */
 .page-products .content-3 .col:nth-child(1) { order: 1; }
-@media (min-width: 992px) { /* line 82, ../_sass/css/page/_products_1_3.scss */
+@media (min-width: 992px) { /* line 85, ../_sass/css/page/_products_1_3.scss */
   .page-products .content-3 .col:nth-child(1) { order: 0; } }
-/* line 90, ../_sass/css/page/_products_1_3.scss */
+/* line 93, ../_sass/css/page/_products_1_3.scss */
 .page-products .content-3 .left-side { padding-right: 0; }
-@media (min-width: 992px) { /* line 90, ../_sass/css/page/_products_1_3.scss */
+@media (min-width: 992px) { /* line 93, ../_sass/css/page/_products_1_3.scss */
   .page-products .content-3 .left-side { padding-right: 55px; } }
-/* line 98, ../_sass/css/page/_products_1_3.scss */
+/* line 101, ../_sass/css/page/_products_1_3.scss */
 .page-products .content-3 .text-side { padding-top: 49px; padding-bottom: 30px; }
-@media (min-width: 992px) { /* line 98, ../_sass/css/page/_products_1_3.scss */
+@media (min-width: 992px) { /* line 101, ../_sass/css/page/_products_1_3.scss */
   .page-products .content-3 .text-side { padding: 0; padding-left: 43px; } }
-/* line 109, ../_sass/css/page/_products_1_3.scss */
+/* line 112, ../_sass/css/page/_products_1_3.scss */
 .page-products .video-container { display: flex; justify-content: center; align-items: center; }
-/* line 114, ../_sass/css/page/_products_1_3.scss */
+/* line 117, ../_sass/css/page/_products_1_3.scss */
 .page-products .video-container .video-item { width: 100%; }
-@media (min-width: 992px) { /* line 114, ../_sass/css/page/_products_1_3.scss */
+@media (min-width: 992px) { /* line 117, ../_sass/css/page/_products_1_3.scss */
   .page-products .video-container .video-item { width: 900px; } }

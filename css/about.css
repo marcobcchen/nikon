@@ -4349,7 +4349,7 @@ footer .footer-con .copyright { color: #989aa0; font-size: 13px; margin: 0; }
 
 /* line 3, ../_sass/css/page/_about.scss */
 .page-about .kv { background-image: url("../images/about/kv_xs.jpg"); }
-@media (min-width: 992px) { /* line 3, ../_sass/css/page/_about.scss */
+@media (min-width: 768px) { /* line 3, ../_sass/css/page/_about.scss */
   .page-about .kv { background-image: url("../images/about/kv_md.jpg"); } }
 /* line 11, ../_sass/css/page/_about.scss */
 .page-about .content-1 { margin-top: 0; height: 520px; background: url("../images/about/content_1_1_xs.jpg") no-repeat center bottom; background-size: 100% auto; }

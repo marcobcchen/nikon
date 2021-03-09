@@ -4242,7 +4242,7 @@ footer .footer-con .copyright { color: #989aa0; font-size: 13px; margin: 0; }
 
 /* line 3, ../_sass/css/page/_products.scss */
 .page-products .kv { background-image: url("../images/products/kv_xs.jpg"); }
-@media (min-width: 992px) { /* line 3, ../_sass/css/page/_products.scss */
+@media (min-width: 768px) { /* line 3, ../_sass/css/page/_products.scss */
   .page-products .kv { background-image: url("../images/products/kv_md.jpg"); } }
 /* line 11, ../_sass/css/page/_products.scss */
 .page-products .main-container { margin-bottom: 8px; }

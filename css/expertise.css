@@ -4349,7 +4349,7 @@ footer .footer-con .copyright { color: #989aa0; font-size: 13px; margin: 0; }
 
 /* line 3, ../_sass/css/page/_expertise.scss */
 .page-expertise .kv { background-image: url("../images/expertise/kv_xs.jpg"); }
-@media (min-width: 992px) { /* line 3, ../_sass/css/page/_expertise.scss */
+@media (min-width: 768px) { /* line 3, ../_sass/css/page/_expertise.scss */
   .page-expertise .kv { background-image: url("../images/expertise/kv_md.jpg"); } }
 /* line 11, ../_sass/css/page/_expertise.scss */
 .page-expertise .experience-container-xs { margin-bottom: 45px; }

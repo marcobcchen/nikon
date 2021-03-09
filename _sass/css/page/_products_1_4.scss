@@ -4,9 +4,12 @@
 		justify-content: center;
 		background-image: url('../images/products/products_1_4/kv_xs.jpg');
 
+		@media (min-width: $media_sm) {
+			background-image: url('../images/products/products_1_4/kv_md.jpg');
+		}
+
 		@media (min-width: $media_md) {
 			justify-content: flex-start;
-			background-image: url('../images/products/products_1_4/kv_md.jpg');
 		}
 
 		.icon{
