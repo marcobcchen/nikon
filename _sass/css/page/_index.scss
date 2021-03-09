@@ -2,6 +2,7 @@
 	.kv{
 		background-image: url('../images/index/kv_xs.jpg');
 
+		
 		@media (min-width: $media_sm) {
 			background-image: url('../images/index/kv_md.jpg');
 		}
