@@ -387,6 +387,7 @@ function getShopInfo(cityId, shopId){
           var pos = shopDetail[j].position;
           moveToLocation(pos);
 
+          $('.mask-scroll').animate({scrollTop: 0}, 500);
           $('.shop-container .img').empty();
 
           if(shopDetail[j].photos.length > 0){
