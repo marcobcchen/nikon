@@ -6,6 +6,11 @@ var nowShop = shopList[0].shop[0].name;
 
 $(function(){
   function init(){
+    
+    // $('.carousel').carousel({
+    //   interval: 1000,
+    //   pause: 'null'
+    // });
     // for(var i=0; i<cityList.length; i++){
     //   var option = `<option value="${cityList[i].id}">${cityList[i].city}</option>`;
     //   // console.log(option);
@@ -371,7 +376,7 @@ document.addEventListener("click", closeAllSelect);
 }
 
 function getShopInfo(cityId, shopId){
-  // console.log('change: ', city, shop);
+  console.log('change: ', cityId, shopId);
   
   for(var i=0; i<shopList.length; i++){
     if(cityId == shopList[i].id){
@@ -439,6 +444,8 @@ function getShopInfo(cityId, shopId){
       }
     }
   }
+
+  $('.carousel').carousel();
 }
 
 
