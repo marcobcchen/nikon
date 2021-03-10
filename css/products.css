@@ -4218,7 +4218,7 @@ footer .footer-con .copyright { color: #989aa0; font-size: 13px; margin: 0; }
 .link-to-page { display: flex; justify-content: center; align-items: center; }
 /* line 601, ../_sass/css/common/_global.scss */
 .link-to-page a { display: flex; justify-content: center; align-items: center; width: calc(100% - 48px); height: 64px; margin: 50px 0; background-color: #3b404b; border: 2px solid #3b404b; transition: .3s; }
-@media (min-width: 992px) { /* line 601, ../_sass/css/common/_global.scss */
+@media (min-width: 768px) { /* line 601, ../_sass/css/common/_global.scss */
   .link-to-page a { width: 320px; margin-top: 49px; margin-bottom: 41px; } }
 /* line 619, ../_sass/css/common/_global.scss */
 .link-to-page a:active, .link-to-page a:focus { text-decoration: none; }
@@ -4229,8 +4229,8 @@ footer .footer-con .copyright { color: #989aa0; font-size: 13px; margin: 0; }
 /* line 632, ../_sass/css/common/_global.scss */
 .link-to-page a p { color: #fff; font-size: 19px; font-weight: 700; line-height: 1.36; text-align: center; margin: 0; }
 
-@media (min-width: 992px) { /* line 643, ../_sass/css/common/_global.scss */
-  .back-to-top { display: flex; position: -webkit-sticky; position: sticky; bottom: 5vh; left: 95vw; width: 50px; height: 50px; z-index: 1000; padding: 10px; margin-top: -50px; cursor: pointer; transition: .3s; border: 2px solid transparent; border-radius: 100%; opacity: 0; }
+@media (min-width: 768px) { /* line 643, ../_sass/css/common/_global.scss */
+  .back-to-top { display: flex; position: -webkit-sticky; position: sticky; bottom: 5vh; left: 93vw; width: 50px; height: 50px; z-index: 1000; padding: 10px; margin-top: -50px; cursor: pointer; transition: .3s; border: 2px solid transparent; border-radius: 100%; opacity: 0; }
   /* line 661, ../_sass/css/common/_global.scss */
   .back-to-top.active { opacity: 1; }
   /* line 665, ../_sass/css/common/_global.scss */
@@ -4241,6 +4241,8 @@ footer .footer-con .copyright { color: #989aa0; font-size: 13px; margin: 0; }
   .back-to-top::after { transform: rotate(-45deg); right: 18px; }
   /* line 679, ../_sass/css/common/_global.scss */
   .back-to-top::before, .back-to-top::after { position: absolute; bottom: 21px; width: 24px; height: 3px; content: ''; transition: .3s; background-color: #3B404B; border-radius: 3px; transition: .3s; } }
+@media (min-width: 1200px) { /* line 643, ../_sass/css/common/_global.scss */
+  .back-to-top { left: 95vw; } }
 
 /* line 3, ../_sass/css/page/_products.scss */
 .page-products .kv { background-image: url("../images/products/kv_xs.jpg"); }

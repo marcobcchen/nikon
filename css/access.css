@@ -4218,7 +4218,7 @@ footer .footer-con .copyright { color: #989aa0; font-size: 13px; margin: 0; }
 .link-to-page { display: flex; justify-content: center; align-items: center; }
 /* line 601, ../_sass/css/common/_global.scss */
 .link-to-page a { display: flex; justify-content: center; align-items: center; width: calc(100% - 48px); height: 64px; margin: 50px 0; background-color: #3b404b; border: 2px solid #3b404b; transition: .3s; }
-@media (min-width: 992px) { /* line 601, ../_sass/css/common/_global.scss */
+@media (min-width: 768px) { /* line 601, ../_sass/css/common/_global.scss */
   .link-to-page a { width: 320px; margin-top: 49px; margin-bottom: 41px; } }
 /* line 619, ../_sass/css/common/_global.scss */
 .link-to-page a:active, .link-to-page a:focus { text-decoration: none; }
@@ -4229,8 +4229,8 @@ footer .footer-con .copyright { color: #989aa0; font-size: 13px; margin: 0; }
 /* line 632, ../_sass/css/common/_global.scss */
 .link-to-page a p { color: #fff; font-size: 19px; font-weight: 700; line-height: 1.36; text-align: center; margin: 0; }
 
-@media (min-width: 992px) { /* line 643, ../_sass/css/common/_global.scss */
-  .back-to-top { display: flex; position: -webkit-sticky; position: sticky; bottom: 5vh; left: 95vw; width: 50px; height: 50px; z-index: 1000; padding: 10px; margin-top: -50px; cursor: pointer; transition: .3s; border: 2px solid transparent; border-radius: 100%; opacity: 0; }
+@media (min-width: 768px) { /* line 643, ../_sass/css/common/_global.scss */
+  .back-to-top { display: flex; position: -webkit-sticky; position: sticky; bottom: 5vh; left: 93vw; width: 50px; height: 50px; z-index: 1000; padding: 10px; margin-top: -50px; cursor: pointer; transition: .3s; border: 2px solid transparent; border-radius: 100%; opacity: 0; }
   /* line 661, ../_sass/css/common/_global.scss */
   .back-to-top.active { opacity: 1; }
   /* line 665, ../_sass/css/common/_global.scss */
@@ -4241,41 +4241,52 @@ footer .footer-con .copyright { color: #989aa0; font-size: 13px; margin: 0; }
   .back-to-top::after { transform: rotate(-45deg); right: 18px; }
   /* line 679, ../_sass/css/common/_global.scss */
   .back-to-top::before, .back-to-top::after { position: absolute; bottom: 21px; width: 24px; height: 3px; content: ''; transition: .3s; background-color: #3B404B; border-radius: 3px; transition: .3s; } }
+@media (min-width: 1200px) { /* line 643, ../_sass/css/common/_global.scss */
+  .back-to-top { left: 95vw; } }
 
 /* line 1, ../_sass/css/page/_custom_select.scss */
-.custom-select { position: relative; color: #fff; border: 0; margin-left: 0px; margin-top: 10px; width: 100%; height: 40px; }
+.fake-shop { position: relative; color: #fff; background-color: #3b404b; border: 0; margin-left: 0px; margin-top: 10px; padding: 8px 16px; width: 100%; height: 40px; }
 /* line 12, ../_sass/css/page/_custom_select.scss */
-.custom-select:first-child { margin-top: 0; }
+.fake-shop:first-child { margin-top: 0; }
+/* line 16, ../_sass/css/page/_custom_select.scss */
+.fake-shop::after { position: absolute; content: ""; top: 14px; right: 10px; width: 20px; height: 20px; background: url("../images/access/icon_arrow_down.png") no-repeat center center; background-size: contain; }
 @media (min-width: 992px) { /* line 1, ../_sass/css/page/_custom_select.scss */
+  .fake-shop { width: 260px; margin-left: 40px; margin-top: 0; } }
+
+/* line 36, ../_sass/css/page/_custom_select.scss */
+.custom-select { position: relative; color: #fff; border: 0; margin-left: 0px; margin-top: 10px; width: 100%; height: 40px; }
+/* line 47, ../_sass/css/page/_custom_select.scss */
+.custom-select:first-child { margin-top: 0; }
+@media (min-width: 992px) { /* line 36, ../_sass/css/page/_custom_select.scss */
   .custom-select { width: 260px; margin-left: 40px; margin-top: 0; } }
 
-/* line 23, ../_sass/css/page/_custom_select.scss */
+/* line 58, ../_sass/css/page/_custom_select.scss */
 .custom-select select { display: none; /*hide original SELECT element: */ }
 
-/* line 27, ../_sass/css/page/_custom_select.scss */
+/* line 62, ../_sass/css/page/_custom_select.scss */
 .select-selected { background-color: #3b404b; }
 
 /* Style the arrow inside the select element: */
-/* line 32, ../_sass/css/page/_custom_select.scss */
+/* line 67, ../_sass/css/page/_custom_select.scss */
 .select-selected:after { position: absolute; content: ""; top: 14px; right: 10px; width: 20px; height: 20px; background: url("../images/access/icon_arrow_down.png") no-repeat center center; background-size: contain; }
 
 /* Point the arrow upwards when the select box is open (active): */
-/* line 46, ../_sass/css/page/_custom_select.scss */
+/* line 81, ../_sass/css/page/_custom_select.scss */
 .select-selected.select-arrow-active:after { transform: rotate(180deg); }
 
 /* style the items (options), including the selected item: */
-/* line 51, ../_sass/css/page/_custom_select.scss */
+/* line 86, ../_sass/css/page/_custom_select.scss */
 .select-items div, .select-selected { color: #ffffff; padding: 8px 16px; border: 1px solid transparent; border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent; cursor: pointer; }
 
 /* Style items (options): */
-/* line 60, ../_sass/css/page/_custom_select.scss */
+/* line 95, ../_sass/css/page/_custom_select.scss */
 .select-items { position: absolute; background-color: #3b404b; top: 100%; left: 0; right: 0; z-index: 99; }
 
 /* Hide the items when the select box is closed: */
-/* line 70, ../_sass/css/page/_custom_select.scss */
+/* line 105, ../_sass/css/page/_custom_select.scss */
 .select-hide { display: none; }
 
-/* line 74, ../_sass/css/page/_custom_select.scss */
+/* line 109, ../_sass/css/page/_custom_select.scss */
 .select-items div:hover, .same-as-selected { background-color: rgba(0, 0, 0, 0.1); }
 
 /* line 1, ../_sass/css/page/_access.scss */

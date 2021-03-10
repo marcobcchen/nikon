@@ -3,8 +3,12 @@
 // 縣市資料
 var cityList = [
   {
-    city: '台北市',
+    city: '縣市',
     id: 0,
+  },
+  {
+    city: '台北市',
+    id: 12,
   },
   {
     city: '新北市',
@@ -56,6 +60,25 @@ var cityList = [
 var shopList = [
   {
     id: 0,
+    shop: [
+      {
+        id: 0,
+        name: '店名',
+        address: '',
+        phone: '',
+        time: '',
+        link: '',
+        intro: '',
+        position: {
+          lat: 25.063168587133273,
+          lng: 121.51712684732703,
+        },
+        photos: [],
+      },
+    ]
+  },
+  {
+    id: 12,
     shop: [
       {
         id: 0,

@@ -13,23 +13,34 @@
 	}
 
 	.content-1{
-		margin-top: 0;
-		height: 520px;
-		background: url('../images/about/content_1_1_xs.jpg') no-repeat center bottom;
-		background-size: 100% auto;
+		@media (min-width: $media_sm) {
+			flex-direction: row;
+			align-items: center;
+		}
 
-		@media (min-width: $media_md) {
-			margin-top: 107px;
-			height: 384px;
-			background: url('../images/about/content_1_1_md.jpg') no-repeat right top;
-			background-size: auto 100%;
+		.col{
+			width: 100%;
+
+			@media (min-width: $media_sm) {
+				width: 50%;
+			}
+		}
+
+		.right-side{
+			@media (min-width: $media_sm) {
+				padding-right: 24px;
+			}
+
+			@media (min-width: $media_md) {
+				padding-right: 0;
+			}
 		}
 
 		.text-side{
 			padding-top: 49px;
 			padding-bottom: 30px;
 
-			@media (min-width: $media_md) {
+			@media (min-width: $media_lg) {
 				padding-right: 155px;
 			}
 		}
@@ -38,15 +49,38 @@
 	.content-2{
 		margin-bottom: 38px;
 
+		@media (min-width: $media_sm) {
+			flex-direction: row;
+			align-items: center;
+		}
+
 		@media (min-width: $media_md) {
 			margin-bottom: 76px;
+		}
+
+		.col{
+			width: 100%;
+
+			@media (min-width: $media_sm) {
+				width: 50%;
+			}
 		}
 
 		.col:first-child{
 			order: 1;
 
-			@media (min-width: $media_md) {
+			@media (min-width: $media_sm) {
 				order: 0;
+			}
+		}
+
+		.left-side{
+			@media (min-width: $media_sm) {
+				padding-left: 24px;
+			}
+
+			@media (min-width: $media_md) {
+				padding-left: 0;
 			}
 		}
 
@@ -54,7 +88,7 @@
 			padding-top: 49px;
 			padding-bottom: 30px;
 
-			@media (min-width: $media_md) {
+			@media (min-width: $media_lg) {
 				padding-left: 155px;
 			}
 		}
@@ -70,10 +104,11 @@
 	.content-window{
 		margin-bottom: 38px;
 		height: 320px;
-		background: url('../images/about/content_bg_xs.jpg') no-repeat center bottom;
+		background: url('../images/about/content_bg_xs.jpg') no-repeat center center;
+		background-size: cover;
 		background-attachment: scroll;
 
-		@media (min-width: $media_md) {
+		@media (min-width: $media_lg) {
 			margin-bottom: 76px;
 			background: url('../images/about/content_bg_md.jpg') no-repeat center top;
 			background-attachment: fixed;

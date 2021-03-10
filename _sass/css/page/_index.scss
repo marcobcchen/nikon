@@ -2,13 +2,16 @@
 	.kv{
 		background-image: url('../images/index/kv_xs.jpg');
 
-		
 		@media (min-width: $media_sm) {
 			background-image: url('../images/index/kv_md.jpg');
 		}
 
 		h1{
 			font-size: 26px;
+
+			@media (min-width: $media_sm) {
+				font-size: 45px;
+			}
 		
 			@media (min-width: $media_md) {
 				font-size: 54px;
@@ -16,6 +19,10 @@
 
 			p{
 				margin-bottom: 10px;
+
+				@media (min-width: $media_sm) {
+					margin-bottom: 24px;
+				}
 
 				@media (min-width: $media_md) {
 					margin-bottom: 27px;
@@ -26,6 +33,10 @@
 				font-size: 24px;
 				font-weight: 300;
 
+				@media (min-width: $media_sm) {
+					font-size: 30px;
+				}
+
 				@media (min-width: $media_md) {
 					font-size: 33px;
 				}
@@ -35,9 +46,13 @@
 				font-size: 24px;
 				font-weight: 500;
 
+				@media (min-width: $media_sm) {
+					font-size: 30px;
+					font-weight: 700;
+				}
+
 				@media (min-width: $media_md) {
 					font-size: 33px;
-					font-weight: 700;
 				}
 			}
 
@@ -219,10 +234,11 @@
 	.content-window{
 		margin-bottom: 38px;
 		height: 320px;
-		background: url('../images/about/content_bg_xs.jpg') no-repeat center bottom;
+		background: url('../images/about/content_bg_xs.jpg') no-repeat center center;
+		background-size: cover;
 		background-attachment: scroll;
 
-		@media (min-width: $media_md) {
+		@media (min-width: $media_lg) {
 			margin-bottom: 76px;
 			background: url('../images/about/content_bg_md.jpg') no-repeat center top;
 			background-attachment: fixed;
