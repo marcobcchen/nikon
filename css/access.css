@@ -4332,7 +4332,7 @@ footer .footer-con .copyright { color: #989aa0; font-size: 13px; margin: 0; }
 /* line 132, ../_sass/css/page/_access.scss */
 .page-access .shop-container .detail p { margin: 0; font-size: 14px; }
 /* line 137, ../_sass/css/page/_access.scss */
-.page-access .shop-container .detail .name { font-size: 16px; font-weight: 700; margin-bottom: 20px; }
+.page-access .shop-container .detail .name { font-size: 16px; font-weight: 700; margin-bottom: 10px; }
 /* line 143, ../_sass/css/page/_access.scss */
 .page-access .shop-container .detail .phone { margin-bottom: 10px; }
 /* line 147, ../_sass/css/page/_access.scss */
@@ -4342,7 +4342,7 @@ footer .footer-con .copyright { color: #989aa0; font-size: 13px; margin: 0; }
 /* line 155, ../_sass/css/page/_access.scss */
 .page-access .shop-container .detail .link a:hover, .page-access .shop-container .detail .link a:active, .page-access .shop-container .detail .link a:focus { color: #3b404b; text-decoration: none; }
 /* line 162, ../_sass/css/page/_access.scss */
-.page-access .shop-container .detail .more-info { height: 120px; overflow-y: auto; }
+.page-access .shop-container .detail .more-info { height: 230px; overflow-y: auto; }
 /* line 169, ../_sass/css/page/_access.scss */
 .page-access .carousel { margin-bottom: 10px; }
 /* line 173, ../_sass/css/page/_access.scss */

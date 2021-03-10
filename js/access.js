@@ -459,7 +459,7 @@ function initMap() {
     });
 
     var position = new google.maps.LatLng(uluru);
-    addMarker(position);
+    // addMarker(position);
     getShopInfo(cityId, shopId);
 }
 
@@ -500,12 +500,13 @@ function setMapOnAll(map) {
 function moveToLocation(pos){ 
   var center = new google.maps.LatLng(pos.lat, pos.lng); 
   map.panTo(center); 
-  addMarker(pos);
+  // addMarker(pos);
 
   if(isFirst){
     isFirst = false;
     return
   }
+  addMarker(pos);
   $('.shop-container').fadeIn();
 } 
 
