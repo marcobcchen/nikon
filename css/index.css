@@ -4066,7 +4066,7 @@ header .header-con nav.open { padding-top: 100px; height: 100vh; }
 @media (min-width: 1200px) { /* line 110, ../_sass/css/common/_global.scss */
   header .header-con nav { margin-right: 28px; } }
 /* line 154, ../_sass/css/common/_global.scss */
-header .header-con nav a { display: block; color: #fff; font-size: 19px; font-weight: 300; letter-spacing: 0.8px; text-align: center; white-space: nowrap; width: calc(100% - 114px); margin: 0 57px; padding: 30px 0; border-bottom: 1px solid #fff; }
+header .header-con nav a { display: block; color: #fff; font-size: 19px; font-weight: 400; letter-spacing: 0.8px; text-align: center; white-space: nowrap; width: calc(100% - 114px); margin: 0 57px; padding: 30px 0; border-bottom: 1px solid #fff; }
 /* line 167, ../_sass/css/common/_global.scss */
 header .header-con nav a:hover, header .header-con nav a:active, header .header-con nav a:focus { text-decoration: none; font-weight: 700; }
 @media (min-width: 992px) { /* line 154, ../_sass/css/common/_global.scss */
@@ -4255,7 +4255,7 @@ footer .footer-con .copyright { color: #989aa0; font-size: 13px; margin: 0; }
 @media (min-width: 992px) { /* line 26, ../_sass/css/page/_page_components.scss */
   .page-index .sub-title, .page-products .sub-title, .page-about .sub-title, .page-expertise .sub-title { margin-bottom: 49px; padding: 0 74px; } }
 /* line 41, ../_sass/css/page/_page_components.scss */
-.page-index .sub-title p, .page-products .sub-title p, .page-about .sub-title p, .page-expertise .sub-title p { margin: 0; font-weight: 300; }
+.page-index .sub-title p, .page-products .sub-title p, .page-about .sub-title p, .page-expertise .sub-title p { margin: 0; font-weight: 400; }
 /* line 46, ../_sass/css/page/_page_components.scss */
 .page-index .sub-title .bold, .page-products .sub-title .bold, .page-about .sub-title .bold, .page-expertise .sub-title .bold { font-size: 26px; font-weight: 700; margin-bottom: 30px; }
 /* line 52, ../_sass/css/page/_page_components.scss */
@@ -4339,7 +4339,7 @@ footer .footer-con .copyright { color: #989aa0; font-size: 13px; margin: 0; }
 /* line 299, ../_sass/css/page/_page_components.scss */
 .page-index .content-text-img .text-con h4, .page-products .content-text-img .text-con h4, .page-about .content-text-img .text-con h4, .page-expertise .content-text-img .text-con h4 { font-size: 26px; font-weight: 700; text-align: center; }
 /* line 305, ../_sass/css/page/_page_components.scss */
-.page-index .content-text-img .text-con p, .page-products .content-text-img .text-con p, .page-about .content-text-img .text-con p, .page-expertise .content-text-img .text-con p { font-size: 16px; font-weight: 300; text-align: justify; margin: 0; }
+.page-index .content-text-img .text-con p, .page-products .content-text-img .text-con p, .page-about .content-text-img .text-con p, .page-expertise .content-text-img .text-con p { font-size: 16px; font-weight: 400; text-align: justify; margin: 0; }
 /* line 317, ../_sass/css/page/_page_components.scss */
 .page-index .content-text-img .img-con, .page-products .content-text-img .img-con, .page-about .content-text-img .img-con, .page-expertise .content-text-img .img-con { box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.15); background-color: #ffffff; width: 100%; margin-bottom: 8px; align-self: stretch; }
 /* line 325, ../_sass/css/page/_page_components.scss */
@@ -4368,7 +4368,7 @@ footer .footer-con .copyright { color: #989aa0; font-size: 13px; margin: 0; }
 @media (min-width: 992px) { /* line 20, ../_sass/css/page/_index.scss */
   .page-index .kv h1 p { margin-bottom: 27px; } }
 /* line 32, ../_sass/css/page/_index.scss */
-.page-index .kv h1 .text-1 { font-size: 24px; font-weight: 300; }
+.page-index .kv h1 .text-1 { font-size: 24px; font-weight: 400; }
 @media (min-width: 768px) { /* line 32, ../_sass/css/page/_index.scss */
   .page-index .kv h1 .text-1 { font-size: 30px; } }
 @media (min-width: 992px) { /* line 32, ../_sass/css/page/_index.scss */
