@@ -40,7 +40,7 @@
 
 		p{
 			margin: 0;
-			font-weight: 400;
+			font-weight: 300;
 		}
 
 		.bold{
@@ -132,6 +132,39 @@
 				font-size: 18px;
 				text-align: justify;
 				letter-spacing: 0px;
+
+				@media (min-width: $media_md) {
+					font-size: 24px;
+				}
+			}
+		}
+
+		.list{
+			margin: 32px 24px;
+
+			@media (min-width: $media_md) {
+				margin: 46px 48px;
+			}
+
+			div{
+				display: flex;
+				justify-content: flex-start;
+				align-items: flex-start;
+			}
+
+			.num{
+				width: 18px;
+
+				@media (min-width: $media_md) {
+					width: 24px;
+				}
+			}
+
+			p{
+				font-size: 18px;
+				text-align: justify;
+				letter-spacing: 0px;
+				margin: 0;
 
 				@media (min-width: $media_md) {
 					font-size: 24px;
@@ -304,7 +337,7 @@
 
 			p{
 				font-size: 16px;
-				font-weight: 400;
+				font-weight: 300;
 				text-align: justify;
 				margin: 0;
 
@@ -343,5 +376,4 @@
 			}
 		}
 	}
-
 }

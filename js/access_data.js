@@ -70,8 +70,8 @@ var shopList = [
         link: '',
         intro: '',
         position: {
-          lat: 25.063168587133273,
-          lng: 121.51712684732703,
+          lat: '',
+          lng: '',
         },
         photos: ['', ''],
       },
@@ -82,6 +82,20 @@ var shopList = [
     shop: [
       {
         id: 0,
+        name: '店名',
+        address: '',
+        phone: '',
+        time: '',
+        link: '',
+        intro: '',
+        position: {
+          lat: '',
+          lng: '',
+        },
+        photos: ['', ''],
+      },
+      {
+        id: 1,
         name: '國輝精品眼鏡-民權西店',
         address: '台北市大同區民權西路129號',
         phone: '(02)2599-3868',
@@ -95,7 +109,7 @@ var shopList = [
         photos: ['images/access/shop/1_1.jpg', 'images/access/shop/1_2.jpg', 'images/access/shop/1_3.jpg'],
       },
       {
-        id: 1,
+        id: 2,
         name: '米蘭米藍眼鏡精品-東門旗艦店',
         address: '台北市大安區信義路二段120號',
         phone: '(02)6617-8251',
@@ -109,7 +123,7 @@ var shopList = [
         photos: ['images/access/shop/2_1.jpg', 'images/access/shop/2_2.jpg', 'images/access/shop/2_3.jpg'],
       },
       {
-        id: 2,
+        id: 3,
         name: '和真眼鏡',
         address: '台北市北投區石牌路2段106號',
         phone: '(02)2825-0179',
@@ -129,6 +143,20 @@ var shopList = [
     shop: [
       {
         id: 0,
+        name: '店名',
+        address: '',
+        phone: '',
+        time: '',
+        link: '',
+        intro: '',
+        position: {
+          lat: '',
+          lng: '',
+        },
+        photos: ['', ''],
+      },
+      {
+        id: 1,
         name: '聚典眼鏡-板橋店',
         address: '新北市板橋區民生路二段152號',
         phone: '(02)2252-5119',
@@ -142,7 +170,7 @@ var shopList = [
         photos: ['images/access/shop/4_1.jpg', 'images/access/shop/4_2.jpg'],
       },
       {
-        id: 1,
+        id: 2,
         name: '矽麗特眼鏡',
         address: '新北市永和區中正路542號',
         phone: '(02)2923-1258',
@@ -162,6 +190,20 @@ var shopList = [
     shop: [
       {
         id: 0,
+        name: '店名',
+        address: '',
+        phone: '',
+        time: '',
+        link: '',
+        intro: '',
+        position: {
+          lat: '',
+          lng: '',
+        },
+        photos: ['', ''],
+      },
+      {
+        id: 1,
         name: '百視特專業眼鏡',
         address: '桃園市桃園區中山路538號',
         phone: '(03)334-3339',
@@ -181,6 +223,20 @@ var shopList = [
     shop: [
       {
         id: 0,
+        name: '店名',
+        address: '',
+        phone: '',
+        time: '',
+        link: '',
+        intro: '',
+        position: {
+          lat: '',
+          lng: '',
+        },
+        photos: ['', ''],
+      },
+      {
+        id: 1,
         name: '聯合眼鏡-竹北2店',
         address: '新竹縣竹北市光明一路99號',
         phone: '(03)558-8408',
@@ -200,6 +256,20 @@ var shopList = [
     shop: [
       {
         id: 0,
+        name: '店名',
+        address: '',
+        phone: '',
+        time: '',
+        link: '',
+        intro: '',
+        position: {
+          lat: '',
+          lng: '',
+        },
+        photos: ['', ''],
+      },
+      {
+        id: 1,
         name: '東海眼鏡行',
         address: '台中市豐原區中山路409號',
         phone: '(04)2524-2821',
@@ -213,7 +283,7 @@ var shopList = [
         photos: ['images/access/shop/8_1.jpg', 'images/access/shop/8_2.jpg', 'images/access/shop/8_3.jpg'],
       },
       {
-        id: 1,
+        id: 2,
         name: '眼鏡視界-豐2店',
         address: '台中市豐原區博愛街3號',
         phone: '(04)2522-6768',
@@ -233,6 +303,20 @@ var shopList = [
     shop: [
       {
         id: 0,
+        name: '店名',
+        address: '',
+        phone: '',
+        time: '',
+        link: '',
+        intro: '',
+        position: {
+          lat: '',
+          lng: '',
+        },
+        photos: ['', ''],
+      },
+      {
+        id: 1,
         name: '睛展視眼鏡',
         address: '彰化縣員林市大同路二段169號',
         phone: '(04)834-2388',
@@ -252,6 +336,20 @@ var shopList = [
     shop: [
       {
         id: 0,
+        name: '店名',
+        address: '',
+        phone: '',
+        time: '',
+        link: '',
+        intro: '',
+        position: {
+          lat: '',
+          lng: '',
+        },
+        photos: ['', ''],
+      },
+      {
+        id: 1,
         name: '草屯花旗眼鏡',
         address: '南投縣草屯鎮碧山路123號',
         phone: '(04)931-0654',
@@ -271,6 +369,20 @@ var shopList = [
     shop: [
       {
         id: 0,
+        name: '店名',
+        address: '',
+        phone: '',
+        time: '',
+        link: '',
+        intro: '',
+        position: {
+          lat: '',
+          lng: '',
+        },
+        photos: ['', ''],
+      },
+      {
+        id: 1,
         name: '伯樂眼鏡-崇明店',
         address: '台南市東區崇明路331號',
         phone: '(06)289-1918',
@@ -284,7 +396,7 @@ var shopList = [
         photos: ['images/access/shop/12_1.jpg', 'images/access/shop/12_2.jpg', 'images/access/shop/12_3.jpg'],
       },
       {
-        id: 1,
+        id: 2,
         name: '視明眼鏡',
         address: '台南市北區開元路65號',
         phone: '(06)237-1032',
@@ -304,6 +416,20 @@ var shopList = [
     shop: [
       {
         id: 0,
+        name: '店名',
+        address: '',
+        phone: '',
+        time: '',
+        link: '',
+        intro: '',
+        position: {
+          lat: '',
+          lng: '',
+        },
+        photos: ['', ''],
+      },
+      {
+        id: 1,
         name: '麗睛眼鏡',
         address: '高雄市前鎮區一心二路22號',
         phone: '(07)333-2112',
@@ -323,6 +449,20 @@ var shopList = [
     shop: [
       {
         id: 0,
+        name: '店名',
+        address: '',
+        phone: '',
+        time: '',
+        link: '',
+        intro: '',
+        position: {
+          lat: '',
+          lng: '',
+        },
+        photos: ['', ''],
+      },
+      {
+        id: 1,
         name: '勁順眼鏡-廣東路店',
         address: '屏東縣屏東市廣東路143號',
         phone: '(087)721-4466',
@@ -342,6 +482,20 @@ var shopList = [
     shop: [
       {
         id: 0,
+        name: '店名',
+        address: '',
+        phone: '',
+        time: '',
+        link: '',
+        intro: '',
+        position: {
+          lat: '',
+          lng: '',
+        },
+        photos: ['', ''],
+      },
+      {
+        id: 1,
         name: '視覺走廊',
         address: '宜蘭縣羅東鎮興東路254號',
         phone: '(03)957-1561',
@@ -361,6 +515,20 @@ var shopList = [
     shop: [
       {
         id: 0,
+        name: '店名',
+        address: '',
+        phone: '',
+        time: '',
+        link: '',
+        intro: '',
+        position: {
+          lat: '',
+          lng: '',
+        },
+        photos: ['', ''],
+      },
+      {
+        id: 1,
         name: '看見眼鏡',
         address: '花蓮縣花蓮市林森路196-1號',
         phone: '(03)832-9856',
