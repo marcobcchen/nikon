@@ -9,7 +9,6 @@ $(function(){
 
     $('.shop-close').on('click', function(){
       $('.shop-container').fadeOut();
-
       return false;
     });
 
@@ -258,7 +257,7 @@ function setCustomShop(){
       }
   
       getShopInfo(cityId, shopId);
-      // console.log('change2', cityId, shopId);
+      console.log('change2', cityId, shopId);
     }
   }
   
@@ -352,13 +351,14 @@ document.addEventListener("click", closeAllSelect);
 
 function getShopInfo(cityId, shopId){
   if(shopId == 0) return;
-  // console.log('change: ', cityId, shopId);
+  console.log('change: ', cityId, shopId);
   
   for(var i=0; i<shopList.length; i++){
     if(cityId == shopList[i].id){
       var shopDetail = shopList[i].shop;
 
       for(var j=0; j<shopDetail.length; j++){
+        console.log('shop num: ', shopDetail.length);
         if(shopId == shopDetail[j].id){
           var pos = shopDetail[j].position;
           moveToLocation(pos);
@@ -433,13 +433,14 @@ function getShopInfo(cityId, shopId){
 
 
 // 初始化地圖
-var uluru = {lat: 25.063334256306522, lng: 121.51713745571459};
+var uluru = {lat: 23.5294867043461, lng: 121.07084805212911};
 var map;
 var markers = [];
+var bounds;
 
 function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 15,
+        zoom: 7.5,
         center: uluru,
         zoomControl: true,
         mapTypeControl: false,
@@ -448,6 +449,7 @@ function initMap() {
         styles: mapStyle
     });
 
+    bounds = new google.maps.LatLngBounds();
     var position = new google.maps.LatLng(uluru);
     // addMarker(position);
     getShopInfo(cityId, shopId);
@@ -455,6 +457,8 @@ function initMap() {
 
 function addMarker(pos) {
     clearMarkers();
+
+    var loc = new google.maps.LatLng(pos.lat, pos.lng);
 
     var icon = {
       url: "images/global/icon_map.png",
@@ -474,6 +478,8 @@ function addMarker(pos) {
     });
 
     markers.push(marker);
+
+    bounds.extend(loc);
 }
 
 function clearMarkers(){
@@ -488,15 +494,21 @@ function setMapOnAll(map) {
 }
 
 function moveToLocation(pos){ 
+  addMarker(pos);
+
   var center = new google.maps.LatLng(pos.lat, pos.lng); 
   map.panTo(center); 
+  map.setZoom(15);
+
+  // map.fitBounds(bounds);
+  // map.panToBounds(bounds); 
   // addMarker(pos);
 
   // if(isFirst){
   //   isFirst = false;
   //   return
   // }
-  addMarker(pos);
+ 
   $('.shop-container').fadeIn();
 } 
 

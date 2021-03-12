@@ -42,7 +42,7 @@ $(function(){
 
 	function init(){
         $("header").load("header.html", function(){
-            console.log("header done");
+            // console.log("header done");
             setting();
 
             $(window).on('resize', onResize);
@@ -52,7 +52,7 @@ $(function(){
         });
 
         $("footer").load("footer.html", function(){
-            console.log("footer done");
+            // console.log("footer done");
         });
     }
 
