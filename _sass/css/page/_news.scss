@@ -72,18 +72,14 @@
 					color: $color_secondary;
 					font-size: 16px;
 					font-weight: 700;
-					margin-bottom: 36px;
+					margin-bottom: 30px;
 				}
 
 				.title{
 					font-size: 19px;
 					font-weight: 700;
 					line-height: 1.58;
-					margin-bottom: 33px;
-
-					@media (min-width: $media_md) {
-						margin-bottom: 40px;
-					}
+					margin-bottom: 30px;
 				}
 
 				.description{

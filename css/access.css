@@ -4344,20 +4344,20 @@ footer .footer-con .copyright { color: #989aa0; font-size: 13px; margin: 0; }
 /* line 161, ../_sass/css/page/_access.scss */
 .page-access .shop-container .detail .link { font-weight: 700; margin-top: 10px; margin-bottom: 10px; }
 /* line 166, ../_sass/css/page/_access.scss */
-.page-access .shop-container .detail .link a { color: #3b404b; }
-/* line 169, ../_sass/css/page/_access.scss */
-.page-access .shop-container .detail .link a:hover, .page-access .shop-container .detail .link a:active, .page-access .shop-container .detail .link a:focus { color: #3b404b; text-decoration: none; }
-/* line 176, ../_sass/css/page/_access.scss */
+.page-access .shop-container .detail .link a { color: #337ab7; text-decoration: underline; }
+/* line 170, ../_sass/css/page/_access.scss */
+.page-access .shop-container .detail .link a:hover, .page-access .shop-container .detail .link a:active, .page-access .shop-container .detail .link a:focus { color: #174c7a; text-decoration: underline; }
+/* line 177, ../_sass/css/page/_access.scss */
 .page-access .shop-container .detail .more-info { height: 230px; overflow-y: auto; }
-/* line 183, ../_sass/css/page/_access.scss */
+/* line 184, ../_sass/css/page/_access.scss */
 .page-access .carousel { margin-bottom: 10px; }
-/* line 187, ../_sass/css/page/_access.scss */
+/* line 188, ../_sass/css/page/_access.scss */
 .page-access .carousel-indicators { bottom: -40px; }
-/* line 190, ../_sass/css/page/_access.scss */
+/* line 191, ../_sass/css/page/_access.scss */
 .page-access .carousel-indicators li { width: 8px; height: 8px; background-color: #cccccc; border: 0; margin: 0 3px; }
-/* line 197, ../_sass/css/page/_access.scss */
+/* line 198, ../_sass/css/page/_access.scss */
 .page-access .carousel-indicators li.active { background-color: #FFD800; }
-/* line 203, ../_sass/css/page/_access.scss */
+/* line 204, ../_sass/css/page/_access.scss */
 .page-access .icon-left { display: block; background: url("../images/access/icon_left.png") no-repeat center top; background-size: contain; width: 30px; height: 30px; position: absolute; left: 10px; top: 50%; margin-top: -15px; }
-/* line 215, ../_sass/css/page/_access.scss */
+/* line 216, ../_sass/css/page/_access.scss */
 .page-access .icon-right { display: block; background: url("../images/access/icon_right.png") no-repeat center top; background-size: contain; width: 30px; height: 30px; position: absolute; right: 10px; top: 50%; margin-top: -15px; }

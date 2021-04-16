@@ -164,11 +164,12 @@
 				margin-bottom: 10px;
 
 				a{
-					color: $color_major;
+					color: #337ab7;
+					text-decoration: underline;
 
 					&:hover, &:active, &:focus{
-						color: $color_major;
-						text-decoration: none;
+						color: #174c7a;
+						text-decoration: underline;
 					}
 				}
 			}

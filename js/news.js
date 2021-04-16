@@ -61,7 +61,7 @@
     for(var i=0; i<data.length; i++){
       var item = `
       <div class="news-item">
-        <div class="picture"><img class="img-responsive" src="${data[i].pictrue}"></div>
+        <a class="picture" href="${data[i].link}" target="${data[i].linkTarget}"><img class="img-responsive" src="${data[i].pictrue}"></a>
         <div class="detail">
           <p class="date">${data[i].date}</p>
           <p class="title">${data[i].title}</p>
