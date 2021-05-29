@@ -3,20 +3,28 @@
 
 var newsList = [
   {
+    pictrue: 'images/news/news_5.jpg',
+    date: '2021.06.04',
+    title: '安心配鏡<br>官網預約送光學拭鏡紙',
+    description: '凡於官網預約驗配，憑簡訊來店配鏡即享<br>Nikon光學拭鏡紙 一盒。<br><a href="news_sp2106.html">活動辦法></a><br>活動時間: 2021 /6/8~8/31',
+    link: 'news_sp2106.html',
+    linkTarget: '_self',
+  },
+  {
+    pictrue: 'images/news/news_6.jpg',
+    date: '2021.06.04',
+    title: '「破解老花迷思，老花眼鏡怎麼配一篇就懂」<br>早安健康專訪',
+    description: '不管您是擔心老花提早上門，還是遲遲不敢配戴老花眼鏡，這篇文章都會告訴您遇到老花該怎麼辦，以及選配老花眼鏡該注意什麼，點閱看全文。',
+    link: '',
+    linkTarget: '_blank',
+  },
+  {
     pictrue: 'images/news/news_4.jpg',
     date: '2021.04.15',
     title: '「眼睛持續疲勞，老花提早報到？」<br>Heho健康網報導',
     description: '您也是眼睛容易疲勞的人嗎？你試著配了幾副眼鏡，但問題仍然無法獲得緩解？造成眼睛疲勞可能不僅一個因素，需要透過更精確、深入的量測流程才能找出適合的解決方案！<br><br>來看<a href="https://heho.com.tw/archives/168005" target="_blank">Heho健康網完整報導</a>。',
     link: 'https://heho.com.tw/archives/168005',
     linkTarget: '_blank',
-  },
-  {
-    pictrue: 'images/news/news_1.jpg',
-    date: '2021.03.15',
-    title: '網路預約，全新上線！',
-    description: '為了避免您久候，除了使用電話預約，現在還可透過官方網站線上預約囉！請到<a href="access.html">搜尋店舖&預約</a>，找到您想要諮詢的眼鏡店，點選預約連結，立即<a href="access.html">線上預約</a>。',
-    link: 'access.html',
-    linkTarget: '_self',
   },
   {
     pictrue: 'images/news/news_3.jpg',
@@ -33,5 +41,13 @@ var newsList = [
     description: '在國內夙負盛名的視覺設計師 -「方序中」接受Nikon鏡片的專訪，談談他在金馬獎典禮的設計觀點，以及配戴Nikon鏡片的體驗感想，<a href="https://youtu.be/rNFuxzvJ2eY" target="_blank">點我看完整影片</a>。',
     link: 'https://youtu.be/rNFuxzvJ2eY',
     linkTarget: '_blank',
+  },
+  {
+    pictrue: 'images/news/news_1.jpg',
+    date: '2021.03.15',
+    title: '網路預約，全新上線！',
+    description: '為了避免您久候，除了使用電話預約，現在還可透過官方網站線上預約囉！請到<a href="access.html">搜尋店舖&預約</a>，找到您想要諮詢的眼鏡店，點選預約連結，立即<a href="access.html">線上預約</a>。',
+    link: 'access.html',
+    linkTarget: '_self',
   },
 ];
