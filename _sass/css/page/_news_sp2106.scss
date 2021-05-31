@@ -18,15 +18,30 @@
 			width: 100%;
 		}
 
-		.pic{
+		.carousel{
 			flex-shrink: 0;
-			padding-top: 62.4%;
-			background: url('../images/news/sp2106/des.png') no-repeat center center;
-			background-size: cover;
-
+			
 			@media (min-width: $media_md) {
 				width: 52%;
-				padding-top: 0;
+			}
+
+			.carousel-inner {
+				@media (min-width: $media_md) {
+					position: absolute;
+					height: 100%;
+				}
+			}
+
+			.item{
+				padding-top: 62.4%;
+				background-repeat: no-repeat;
+				background-position: center center;
+				background-size: cover;
+
+				@media (min-width: $media_md) {
+					padding-top: 0;
+					height: 100%;
+				}
 			}
 		}
 
@@ -66,14 +81,6 @@
 					font-size: 18px;
 					padding-left: 30px;
 					position: relative;
-
-					@media (min-width: $media_md) {
-						font-size: 20px;
-					}
-	
-					@media (min-width: $media_lg) {
-						font-size: 24px;
-					}
 
 					&::before{
 						content: '';
@@ -118,7 +125,7 @@
 			.content{
 				position: absolute;
 				left: 0%;
-				top: 66%;
+				top: 64%;
 				width: 100%;
 				padding: 0 24px;
 
@@ -164,7 +171,7 @@
 				ul{
 					list-style: none;
 					padding: 0;
-					margin-bottom: 6%;
+					margin-bottom: 8%;
 
 					li{
 						
@@ -178,9 +185,17 @@
 							letter-spacing: 0;
 							margin: 0;
 
-							&.sp{
+							& > a{
 								color: #337AB7;
 								text-decoration: underline;
+
+								&:hover{
+									color: #174c7a;
+								}
+
+								&:focus, &:active{
+									color: #337AB7;
+								}
 							}
 
 							@media (min-width: $media_sm) {
@@ -188,11 +203,11 @@
 							}
 	
 							@media (min-width: $media_md) {
-								font-size: 20px;
+								font-size: 18px;
 							}
 			
 							@media (min-width: $media_lg) {
-								font-size: 24px;
+								font-size: 18px;
 							}
 						}
 
@@ -219,7 +234,7 @@
 					}
 				}
 
-				a{
+				> a{
 					display: block;
 					color: #000;
 					font-size: 18px;
@@ -244,7 +259,7 @@
 					}
 	
 					@media (min-width: $media_lg) {
-						font-size: 24px;
+						font-size: 21px;
 					}
 
 					span{
@@ -271,9 +286,11 @@
 		.tips{
 			background-color: #3B404B;
 			padding: 4% 24px;
+			margin-bottom: 8%;
 
 			@media (min-width: $media_md) {
 				padding: 2% 4%;
+				margin-bottom: 4%;
 			}
 
 			p{
