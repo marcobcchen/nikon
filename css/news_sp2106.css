@@ -4265,9 +4265,9 @@ footer .footer-con .copyright { color: #989aa0; font-size: 13px; margin: 0; }
 @media (min-width: 992px) { /* line 35, ../_sass/css/page/_news_sp2106.scss */
   .page-news .des-container .carousel .item { padding-top: 0; height: 100%; } }
 /* line 48, ../_sass/css/page/_news_sp2106.scss */
-.page-news .des-container .des { display: flex; flex-direction: column; justify-content: center; background-color: #E9E9E9; padding: 2% 24px; }
+.page-news .des-container .des { display: flex; flex-direction: column; justify-content: center; background-color: #E9E9E9; padding: 8% 24px; }
 @media (min-width: 768px) { /* line 48, ../_sass/css/page/_news_sp2106.scss */
-  .page-news .des-container .des { flex-direction: row; justify-content: space-around; align-items: center; padding: 2% 4%; } }
+  .page-news .des-container .des { flex-direction: row; justify-content: space-around; align-items: center; padding: 3% 4%; } }
 @media (min-width: 992px) { /* line 48, ../_sass/css/page/_news_sp2106.scss */
   .page-news .des-container .des { flex-direction: column; align-items: flex-start; padding: 2% 4%; } }
 /* line 68, ../_sass/css/page/_news_sp2106.scss */

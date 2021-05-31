@@ -50,13 +50,13 @@
 			flex-direction: column;
 			justify-content: center;
 			background-color: #E9E9E9;
-			padding: 2% 24px;
+			padding: 8% 24px;
 
 			@media (min-width: $media_sm) {
 				flex-direction: row;
 				justify-content: space-around;
 				align-items: center;
-				padding: 2% 4%;
+				padding: 3% 4%;
 			}
 
 			@media (min-width: $media_md) {
