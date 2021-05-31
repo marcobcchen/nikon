@@ -52,7 +52,16 @@
 			background-color: #E9E9E9;
 			padding: 2% 24px;
 
+			@media (min-width: $media_sm) {
+				flex-direction: row;
+				justify-content: space-around;
+				align-items: center;
+				padding: 2% 4%;
+			}
+
 			@media (min-width: $media_md) {
+				flex-direction: column;
+				align-items: flex-start;
 				padding: 2% 4%;
 			}
 
@@ -63,8 +72,13 @@
 				margin: 0;
 				margin-bottom: 4%;
 
+				@media (min-width: $media_sm) {
+					margin-bottom: 0%;
+				}
+
 				@media (min-width: $media_md) {
 					font-size: 26px;
+					margin-bottom: 4%;
 				}
 
 				@media (min-width: $media_lg) {
@@ -75,6 +89,7 @@
 			ul{
 				list-style: none;
 				padding: 0;
+				margin: 0;
 
 				li{
 					color: #000;
