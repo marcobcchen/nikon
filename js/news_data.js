@@ -4,7 +4,7 @@
 var newsList = [
   {
     pictrue: 'images/news/news_5.jpg',
-    date: '2021.06.04',
+    date: '2021.06.08',
     title: '安心配鏡<br>官網預約送光學拭鏡紙',
     description: '凡於官網預約驗配，憑簡訊來店配鏡即享<br>Nikon光學拭鏡紙 一盒。<br><a href="news_sp2106.html">活動辦法></a><br>活動時間: 2021 /6/8~8/31',
     link: 'news_sp2106.html',
@@ -12,10 +12,10 @@ var newsList = [
   },
   {
     pictrue: 'images/news/news_6.jpg',
-    date: '2021.06.04',
+    date: '2021.06.08',
     title: '「破解老花迷思，老花眼鏡怎麼配一篇就懂」<br>早安健康專訪',
-    description: '不管您是擔心老花提早上門，還是遲遲不敢配戴老花眼鏡，這篇文章都會告訴您遇到老花該怎麼辦，以及選配老花眼鏡該注意什麼，點閱看全文。',
-    link: '',
+    description: '不管您是擔心老花提早上門，還是遲遲不敢配戴老花眼鏡，這篇文章都會告訴您遇到老花該怎麼辦，以及選配老花眼鏡該注意什麼，<a href="https://www.edh.tw/article/27400" target="_blank">點閱看全文</a>。',
+    link: 'https://www.edh.tw/article/27400',
     linkTarget: '_blank',
   },
   {
