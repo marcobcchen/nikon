@@ -153,14 +153,14 @@ var shopList = [
       {
         id: 5,
         name: '小龍女眼鏡',
-        address: '台北市大安區永康街2巷2-1號',
+        address: '台北市大安區永康街14巷2號',
         phone: '(02)23973928',
         time: '週一~週日11：00-21：30',
         link: 'https://eyebooknow.tw/TW00000021',
         intro: '',
         position: {
-          lat: 25.03331508291009,
-          lng: 121.52964664048868,
+          lat: 25.03137099988903,
+          lng: 121.52940874887209,
         },
         photos: [],
       },
@@ -231,7 +231,7 @@ var shopList = [
         address: '新北市淡水區中山路42號',
         phone: '(02)2622-0085',
         time: '週一~週日10：00-21：00',
-        link: '',
+        link: 'https://eyebooknow.tw/TW00002224',
         intro: '',
         position: {
           lat: 25.170300957092667,
