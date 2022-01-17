@@ -3,6 +3,9 @@ var shopId = 0;
 var isFirst = true;
 var nowCity = cityList[0].city;
 var nowShop = shopList[0].shop[0].name;
+var nowCityList = [];
+var nowShopList = [];
+var root = 'https://www.nikon-nvec.com.tw';
 
 $(function(){
   function init(){
@@ -13,7 +16,8 @@ $(function(){
       return false;
     });
 
-    setList();
+    // setList();
+    getList();
   }
 
   
@@ -21,16 +25,40 @@ $(function(){
 });
 
 function setList(){
+  nowCityList = cityList;
+  nowShopList = shopList;
+
   setCityOption();
   setShopOption();
   // setCustomFake();
 }
 
+function getList(){
+  $.ajax({
+    type: 'GET',
+    url: root + '/api/location/all',
+    dataType: 'json',
+    success: function (response) {
+      // console.log('city:', response.cityList);
+      // console.log('shop:', response.shopList);
+
+      nowCityList = response.cityList;
+      nowShopList = response.shopList;
+
+      setCityOption();
+      setShopOption();
+    },
+    error: function (thrownError) {
+      console.log(thrownError);
+    }
+  });
+}
+
 function setCityOption(){
   var cityOption = '';
 
-  for(var i=0; i<cityList.length; i++){
-    cityOption += `<option value="${cityList[i].id}">${cityList[i].city}</option>`;
+  for(var i=0; i<nowCityList.length; i++){
+    cityOption += `<option value="${nowCityList[i].id}">${nowCityList[i].city}</option>`;
   }
 
   var customCity = `
@@ -47,11 +75,11 @@ function setCityOption(){
 function setShopOption(){
   var shopOption = '';
 
-  for(var i=0; i<shopList.length; i++){
-    if(cityId == shopList[i].id){
-      var shopDetail = shopList[i].shop;
-
+  for(var i=0; i<nowShopList.length; i++){
+    if(cityId == nowShopList[i].id){
+      var shopDetail = nowShopList[i].shop;
       for(var j=0; j<shopDetail.length; j++){
+        // console.log(shopDetail[j].name);
         shopOption += `<option value="${shopDetail[j].id}">${shopDetail[j].name}</option>`;
       }
     }
@@ -148,9 +176,9 @@ function closeAllSelect(elmnt) {
   if(nowCity != $('.custom-city .select-selected').text()){
     nowCity = $('.custom-city .select-selected').text();
 
-    for(var i=0; i<cityList.length; i++){
-      if(cityList[i].city == nowCity){
-        cityId = cityList[i].id;
+    for(var i=0; i<nowCityList.length; i++){
+      if(nowCityList[i].city == nowCity){
+        cityId = nowCityList[i].id;
 
         $('.custom-fake').remove();
         $('.custom-shop').remove();
@@ -246,12 +274,13 @@ function setCustomShop(){
     if(nowShop != $('.custom-shop .select-selected').text()){
       nowShop = $('.custom-shop .select-selected').text();
   
-      for(var i=0; i<cityList.length; i++){
-        if(cityList[i].city == nowCity){
+      for(var i=0; i<nowCityList.length; i++){
+        if(nowCityList[i].city == nowCity){
   
-          for(var j=0; j<shopList[i].shop.length; j++){
-            if(shopList[i].shop[j].name == nowShop){
-              shopId = shopList[i].shop[j].id;
+          for(var j=0; j<nowShopList[i].shop.length; j++){
+            // console.log(nowShopList[i].shop[j].name, nowShop);
+            if(nowShopList[i].shop[j].name == nowShop){
+              shopId = nowShopList[i].shop[j].id;
             }
           }
         }
@@ -354,9 +383,9 @@ function getShopInfo(cityId, shopId){
   if(shopId == 0) return;
   // console.log('change: ', cityId, shopId);
   
-  for(var i=0; i<shopList.length; i++){
-    if(cityId == shopList[i].id){
-      var shopDetail = shopList[i].shop;
+  for(var i=0; i<nowShopList.length; i++){
+    if(cityId == nowShopList[i].id){
+      var shopDetail = nowShopList[i].shop;
 
       for(var j=0; j<shopDetail.length; j++){
         if(shopId == shopDetail[j].id){
@@ -372,7 +401,7 @@ function getShopInfo(cityId, shopId){
 
             for(var k=0; k<shopDetail[j].photos.length; k++){
               dots += `<li data-target="#carousel-example-generic" data-slide-to="${k}" ${k == 0 ? 'class="active"' : ''}></li>`;
-              photos += `<div class="item ${k == 0 ? 'active' : ''}"><img class="img-responsive" src="${shopDetail[j].photos[k]}"></div>`;
+              photos += `<div class="item ${k == 0 ? 'active' : ''}"><img class="img-responsive" src="${root}${shopDetail[j].photos[k]}"></div>`;
             }
             // console.log(dots, photos);
 

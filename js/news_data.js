@@ -3,12 +3,12 @@
 
 var newsList = [
   {
-    pictrue: 'images/news/news_5.jpg',
-    date: '2021.06.08',
-    title: '安心配鏡<br>官網預約送光學拭鏡紙',
-    description: '凡於官網預約驗配，憑簡訊來店配鏡即享<br>Nikon光學拭鏡紙 一盒。<br><a href="news_sp2106.html">活動辦法></a><br>活動時間: 2021 /6/8~8/31',
-    link: 'news_sp2106.html',
-    linkTarget: '_self',
+    pictrue: 'images/news/news_7.jpg',
+    date: '2021.01.18',
+    title: '你的眼鏡配對了嗎?釐清你的用眼困擾搜鏡王專題報導',
+    description: '眼睛容易疲勞?!對光線敏感?車燈刺眼不舒服? 這些常見的用眼困擾能靠眼鏡改善嗎? 一起來看<a href="https://www.soeyewear.com/Article/Detail/3251?fbclid=IwAR0vNlSACtlVN4EJXYEGKoRAVscmEvBkO0C7g76dwBoPGb_ME2HTcIK-10Y" target="_blank">搜鏡王專題報導</a>',
+    link: 'https://www.soeyewear.com/Article/Detail/3251?fbclid=IwAR0vNlSACtlVN4EJXYEGKoRAVscmEvBkO0C7g76dwBoPGb_ME2HTcIK-10Y',
+    linkTarget: '_blank',
   },
   {
     pictrue: 'images/news/news_6.jpg',
@@ -25,6 +25,14 @@ var newsList = [
     description: '您也是眼睛容易疲勞的人嗎？你試著配了幾副眼鏡，但問題仍然無法獲得緩解？造成眼睛疲勞可能不僅一個因素，需要透過更精確、深入的量測流程才能找出適合的解決方案！<br><br>來看<a href="https://heho.com.tw/archives/168005" target="_blank">Heho健康網完整報導</a>。',
     link: 'https://heho.com.tw/archives/168005',
     linkTarget: '_blank',
+  },
+  {
+    pictrue: 'images/news/news_5.jpg',
+    date: '2021.06.08',
+    title: '安心配鏡<br>官網預約送光學拭鏡紙',
+    description: '凡於官網預約驗配，憑簡訊來店配鏡即享<br>Nikon光學拭鏡紙 一盒。<br><a href="news_sp2106.html">活動辦法></a><br>活動時間: 2021 /6/8~8/31',
+    link: 'news_sp2106.html',
+    linkTarget: '_self',
   },
   {
     pictrue: 'images/news/news_3.jpg',
