@@ -44,6 +44,33 @@
 		src="https://www.facebook.com/tr?id=987989158606759&ev=PageView&noscript=1"
 	/></noscript>
 	<!-- End Facebook Pixel Code -->	
+
+	<!-- Global site tag (gtag.js) - Google Ads: 384129413 -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-384129413"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'AW-384129413');
+	</script>
+
+	<!-- Event snippet for button-nvec_搜尋店舖與預約 conversion page
+	In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+	<script>
+		function gtag_report_conversion(url) {
+			var callback = function () {
+				if (typeof(url) != 'undefined') {
+					window.location = url;
+				}
+			};
+			gtag('event', 'conversion', {
+					'send_to': 'AW-384129413/X3loCNut5IsCEIWzlbcB',
+					'event_callback': callback
+			});
+			return false;
+		}
+	</script>
 </head>
 
 <body>
@@ -112,7 +139,7 @@
 									</a>
 								</div>
 								<div class="item">
-									<a class="cta-thumb cta-access" href="access.html">
+									<a class="cta-thumb cta-access" href="access.html" onclick="javascript:gtag_report_conversion();">
 										<p>搜尋店鋪&預約</p>
 									</a>
 								</div>
@@ -128,7 +155,7 @@
 								<a class="cta-thumb cta-expertise" href="expertise.html">
 									<p>專業配鏡</p>
 								</a>
-								<a class="cta-thumb cta-access" href="access.html">
+								<a class="cta-thumb cta-access" href="access.html" onclick="javascript:gtag_report_conversion();">
 									<p>搜尋店鋪&預約</p>
 								</a>
 							</div>

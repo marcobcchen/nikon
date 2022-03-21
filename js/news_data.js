@@ -4,7 +4,7 @@
 var newsList = [
   {
     pictrue: 'images/news/news_7.jpg',
-    date: '2021.01.18',
+    date: '2022.01.19',
     title: '你的眼鏡配對了嗎?釐清你的用眼困擾<br>搜鏡王專題報導',
     description: '眼睛容易疲勞?!對光線敏感?車燈刺眼不舒服? 這些常見的用眼困擾能靠眼鏡改善嗎? 一起來看<a href="https://www.soeyewear.com/Article/Detail/3251?fbclid=IwAR0vNlSACtlVN4EJXYEGKoRAVscmEvBkO0C7g76dwBoPGb_ME2HTcIK-10Y" target="_blank">搜鏡王專題報導</a>',
     link: 'https://www.soeyewear.com/Article/Detail/3251?fbclid=IwAR0vNlSACtlVN4EJXYEGKoRAVscmEvBkO0C7g76dwBoPGb_ME2HTcIK-10Y',
